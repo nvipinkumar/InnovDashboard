@@ -1,7 +1,10 @@
 <%- model_class = Knowandcul -%>
 <div class="page-header">
 <!--   <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1> -->
-<h1><%=t 'Knowledge and Culture' %></h1>
+<h1 align="center"><%= 'Knowledge and Culture' %></h1>
+<h3><%= link_to "Create an Idea",
+            new_knowandcul_path %></h3>
+<h4><span style="padding-left:80%"><%= 'Knowledge and Culture' %></span></h4>
 </div>
 <style>
    table {border-collapse:collapse; table-layout:fixed; width:800px;}
@@ -26,7 +29,7 @@
       <th><%= model_class.human_attribute_name("Reviewed by") %></th>
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
-      <th><%= model_class.human_attribute_name(:Action) %></th>
+      <th><%= model_class.human_attribute_name("Action Item") %></th>
       <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -35,6 +38,7 @@
   <tbody>
     <% @knowandculs.each do |knowandcul| %>
       <tr>
+        <% if knowandcul.ImpOwner_id == 1 %>
         <td><%= knowandcul.id %></td>
         <!-- <td><%= knowandcul.Name %></td> -->
         <td><%= link_to knowandcul.Name, knowandcul_path(knowandcul) %></td>
@@ -45,7 +49,7 @@
         <td><%= knowandcul.GetStatus %></td>
         <td><%= knowandcul.Comments %></td>
         <td><%= knowandcul.Action %></td>
-        <td><%= knowandcul.ImpOwner_id %></td>
+        <td><%= knowandcul.GetOwner %></td>
         <!-- <td><%=l knowandcul.created_at %></td> -->
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -55,12 +59,151 @@
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-danger btn-xs' %>
-        </td>
+        </td>        
       </tr>
+      <% end %>
     <% end %>
   </tbody>
 </table>
 
-<%= link_to "Create an Idea",
+<!-- <%= link_to "Create an Idea",
             new_knowandcul_path,
-            :class => 'btn btn-primary' %>
+            :class => 'btn btn-primary' %> -->
+
+
+<!-- Second Table -->
+<div class="page-header">
+<!--   <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1> -->
+
+<h1><%= 'Knowledge and Culture2' %></h1>
+<h4><span style="padding-left:80%"><%= 'Knowledge and Culture' %></span></h4>
+<%= link_to "Create an Idea",
+            new_knowandcul_path %>
+</div>
+<style>
+   table {border-collapse:collapse; table-layout:fixed; width:800px;}
+   table td { word-wrap:break-word;}
+</style>
+<table class="table table-striped">
+  <col width="30">
+  <col width="150">
+  <col width="150">
+  <col width="300">
+  <col width="100">
+  <col width="100">
+  <col width="100">
+  <col width="200">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:Name) %></th>
+      <th><%= model_class.human_attribute_name(:Summary) %></th>
+      <th><%= model_class.human_attribute_name(:Description) %></th>
+      <th><%= model_class.human_attribute_name(:Owner) %></th>
+      <th><%= model_class.human_attribute_name("Reviewed by") %></th>
+      <th><%= model_class.human_attribute_name(:Status_id) %></th>
+      <th><%= model_class.human_attribute_name(:Comments) %></th>
+      <th><%= model_class.human_attribute_name("Action Item") %></th>
+      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @knowandculs.each do |knowandcul| %>
+      <tr>
+        <% if knowandcul.ImpOwner_id == 2 %>
+        <td><%= knowandcul.id %></td>
+        <!-- <td><%= knowandcul.Name %></td> -->
+        <td><%= link_to knowandcul.Name, knowandcul_path(knowandcul) %></td>
+        <td><%= knowandcul.Summary %></td>
+        <td><%= knowandcul.Description %></td>
+        <td><%= knowandcul.Owner %></td>
+        <td><%= knowandcul.Reviewed %></td>
+        <td><%= knowandcul.GetStatus %></td>
+        <td><%= knowandcul.Comments %></td>
+        <td><%= knowandcul.Action %></td>
+        <td><%= knowandcul.GetOwner %></td>
+        <!-- <td><%=l knowandcul.created_at %></td> -->
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_knowandcul_path(knowandcul), :class => 'btn btn-primary btn-xs' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      knowandcul_path(knowandcul),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-danger btn-xs' %>
+        </td>        
+      </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
+
+
+<!-- Third Table -->
+<div class="page-header">
+<!--   <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1> -->
+
+<h1><%= 'Knowledge and Culture3' %></h1>
+<h4><span style="padding-left:80%"><%= 'Knowledge and Culture' %></span></h4>
+</div>
+<style>
+   table {border-collapse:collapse; table-layout:fixed; width:800px;}
+   table td { word-wrap:break-word;}
+</style>
+<table class="table table-striped">
+  <col width="30">
+  <col width="150">
+  <col width="150">
+  <col width="300">
+  <col width="100">
+  <col width="100">
+  <col width="100">
+  <col width="200">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:Name) %></th>
+      <th><%= model_class.human_attribute_name(:Summary) %></th>
+      <th><%= model_class.human_attribute_name(:Description) %></th>
+      <th><%= model_class.human_attribute_name(:Owner) %></th>
+      <th><%= model_class.human_attribute_name("Reviewed by") %></th>
+      <th><%= model_class.human_attribute_name(:Status_id) %></th>
+      <th><%= model_class.human_attribute_name(:Comments) %></th>
+      <th><%= model_class.human_attribute_name("Action Item") %></th>
+      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @knowandculs.each do |knowandcul| %>
+      <tr>
+        <% if knowandcul.ImpOwner_id == 3 %>
+        <td><%= knowandcul.id %></td>
+        <!-- <td><%= knowandcul.Name %></td> -->
+        <td><%= link_to knowandcul.Name, knowandcul_path(knowandcul) %></td>
+        <td><%= knowandcul.Summary %></td>
+        <td><%= knowandcul.Description %></td>
+        <td><%= knowandcul.Owner %></td>
+        <td><%= knowandcul.Reviewed %></td>
+        <td><%= knowandcul.GetStatus %></td>
+        <td><%= knowandcul.Comments %></td>
+        <td><%= knowandcul.Action %></td>
+        <td><%= knowandcul.GetOwner %></td>
+        <!-- <td><%=l knowandcul.created_at %></td> -->
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_knowandcul_path(knowandcul), :class => 'btn btn-primary btn-xs' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      knowandcul_path(knowandcul),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-danger btn-xs' %>
+        </td>        
+      </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
