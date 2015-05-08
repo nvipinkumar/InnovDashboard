@@ -1,0 +1,44 @@
+<%= form_for @techandsol, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="form-group">
+    <%= f.label :Name, :class => 'control-label' %>
+    <%= f.text_field :Name, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Summary, :class => 'control-label' %>
+    <%= f.text_field :Summary, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Description, :class => 'control-label' %>
+    <%= f.text_area :Description, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Owner, :class => 'control-label' %>
+    <%= f.text_area :Owner, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Reviewed, :class => 'control-label' %>
+    <%= f.text_area :Reviewed, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Status_id, :class => 'control-label' %>
+    <%= f.number_field :Status_id, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Comments, :class => 'control-label' %>
+    <%= f.text_area :Comments, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :Action, :class => 'control-label' %>
+    <%= f.text_area :Action, :class => 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :ImpOwner_id, :class => 'control-label' %>
+    <%= f.number_field :ImpOwner_id, :class => 'form-control' %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                techandsols_path, :class => 'btn' %>
+  </div>
+<% end %>

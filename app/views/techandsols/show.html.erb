@@ -1,0 +1,37 @@
+<%- model_class = Techandsol -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:Name) %>:</strong></dt>
+  <dd><%= @techandsol.Name %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Summary) %>:</strong></dt>
+  <dd><%= @techandsol.Summary %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Description) %>:</strong></dt>
+  <dd><%= @techandsol.Description %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
+  <dd><%= @techandsol.Owner %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Reviewed) %>:</strong></dt>
+  <dd><%= @techandsol.Reviewed %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
+  <dd><%= @techandsol.Status_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
+  <dd><%= @techandsol.Comments %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:Action) %>:</strong></dt>
+  <dd><%= @techandsol.Action %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:ImpOwner_id) %>:</strong></dt>
+  <dd><%= @techandsol.ImpOwner_id %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              techandsols_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_techandsol_path(@techandsol), :class => 'btn btn-primary' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              techandsol_path(@techandsol),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

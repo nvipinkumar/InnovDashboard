@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150505141716) do
+ActiveRecord::Schema.define(version: 20150508202158) do
 
   create_table "idea_statuses", force: :cascade do |t|
     t.string   "Status"
@@ -26,6 +26,34 @@ ActiveRecord::Schema.define(version: 20150505141716) do
   end
 
   create_table "knowandculs", force: :cascade do |t|
+    t.string   "Name"
+    t.string   "Summary"
+    t.text     "Description"
+    t.text     "Owner"
+    t.text     "Reviewed"
+    t.integer  "Status_id"
+    t.text     "Comments"
+    t.text     "Action"
+    t.integer  "ImpOwner_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "procandecos", force: :cascade do |t|
+    t.string   "Name"
+    t.string   "Summary"
+    t.text     "Description"
+    t.text     "Owner"
+    t.text     "Reviewed"
+    t.integer  "Status_id"
+    t.text     "Comments"
+    t.text     "Action"
+    t.integer  "ImpOwner_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "techandsols", force: :cascade do |t|
     t.string   "Name"
     t.string   "Summary"
     t.text     "Description"
