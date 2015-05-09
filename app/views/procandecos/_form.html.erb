@@ -1,44 +1,55 @@
 <%= form_for @procandeco, :html => { :class => 'form-horizontal' } do |f| %>
   <div class="form-group">
-    <%= f.label :Name, :class => 'control-label' %>
+    <%= f.label "Idea Name", :class => 'control-label' %>
     <%= f.text_field :Name, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :Summary, :class => 'control-label' %>
+    <%= f.label "Idea Summary", :class => 'control-label' %>
     <%= f.text_field :Summary, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :Description, :class => 'control-label' %>
+    <%= f.label "Idea Description", :class => 'control-label' %>
     <%= f.text_area :Description, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :Owner, :class => 'control-label' %>
+    <%= f.label "Idea Owner(s)", :class => 'control-label' %>
     <%= f.text_area :Owner, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :Reviewed, :class => 'control-label' %>
+    <%= f.label "Idea Reviewed by", :class => 'control-label' %>
     <%= f.text_area :Reviewed, :class => 'form-control' %>
   </div>
-  <div class="form-group">
+  
+  <!-- <div class="form-group">
     <%= f.label :Status_id, :class => 'control-label' %>
     <%= f.number_field :Status_id, :class => 'form-control' %>
-  </div>
+  </div> -->
+  
   <div class="form-group">
     <%= f.label :Comments, :class => 'control-label' %>
     <%= f.text_area :Comments, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :Action, :class => 'control-label' %>
+    <%= f.label "Action Item", :class => 'control-label' %>
     <%= f.text_area :Action, :class => 'form-control' %>
   </div>
-  <div class="form-group">
+
+  <!-- <div class="form-group">
     <%= f.label :ImpOwner_id, :class => 'control-label' %>
     <%= f.number_field :ImpOwner_id, :class => 'form-control' %>
+  </div> -->
+
+   <div class="form-group">
+    <%= f.label "Status:" %>
+    <%= f.collection_select :Status_id, IdeaStatus.all, :id, :Status, include_blank: false %>
+    <%= f.label "Imperative Owner:" %>
+    <%= f.collection_select :ImpOwner_id, ImpOwner.all, :id, :ImperativeOwner, include_blank: false %>
   </div>
 
-  <div class="form-actions">
-    <%= f.submit nil, :class => 'btn btn-primary' %>
+  <br />
+  <div class="form-group">
+    <%= f.submit 'Create', :class => 'btn btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                procandecos_path, :class => 'btn' %>
+                procandecos_path, :class => 'btn btn-default' %>
   </div>
 <% end %>

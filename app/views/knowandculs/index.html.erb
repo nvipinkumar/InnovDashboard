@@ -11,7 +11,7 @@
    table td { word-wrap:break-word;}
 </style>
 <table class="table table-striped">
-  <col width="30">
+  <!-- <col width="30"> -->
   <col width="150">
   <col width="150">
   <col width="300">
@@ -21,7 +21,7 @@
   <col width="200">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
       <th><%= model_class.human_attribute_name(:Name) %></th>
       <th><%= model_class.human_attribute_name(:Summary) %></th>
       <th><%= model_class.human_attribute_name(:Description) %></th>
@@ -39,7 +39,7 @@
     <% @knowandculs.each do |knowandcul| %>
       <tr>
         <% if knowandcul.ImpOwner_id == 1 %>
-        <td><%= knowandcul.id %></td>
+        <!-- <td><%= knowandcul.id %></td> -->
         <!-- <td><%= knowandcul.Name %></td> -->
         <td><%= link_to knowandcul.Name, knowandcul_path(knowandcul) %></td>
         <td><%= knowandcul.Summary %></td>
@@ -77,15 +77,13 @@
 
 <h1><%= 'Knowledge and Culture2' %></h1>
 <h4><span style="padding-left:80%"><%= 'Knowledge and Culture' %></span></h4>
-<%= link_to "Create an Idea",
-            new_knowandcul_path %>
 </div>
 <style>
    table {border-collapse:collapse; table-layout:fixed; width:800px;}
    table td { word-wrap:break-word;}
 </style>
 <table class="table table-striped">
-  <col width="30">
+  <!-- <col width="30"> -->
   <col width="150">
   <col width="150">
   <col width="300">
@@ -95,7 +93,7 @@
   <col width="200">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
       <th><%= model_class.human_attribute_name(:Name) %></th>
       <th><%= model_class.human_attribute_name(:Summary) %></th>
       <th><%= model_class.human_attribute_name(:Description) %></th>
@@ -113,7 +111,7 @@
     <% @knowandculs.each do |knowandcul| %>
       <tr>
         <% if knowandcul.ImpOwner_id == 2 %>
-        <td><%= knowandcul.id %></td>
+        <!-- <td><%= knowandcul.id %></td> -->
         <!-- <td><%= knowandcul.Name %></td> -->
         <td><%= link_to knowandcul.Name, knowandcul_path(knowandcul) %></td>
         <td><%= knowandcul.Summary %></td>
@@ -153,7 +151,7 @@
    table td { word-wrap:break-word;}
 </style>
 <table class="table table-striped">
-  <col width="30">
+  <!-- <col width="30"> -->
   <col width="150">
   <col width="150">
   <col width="300">
@@ -163,7 +161,7 @@
   <col width="200">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
       <th><%= model_class.human_attribute_name(:Name) %></th>
       <th><%= model_class.human_attribute_name(:Summary) %></th>
       <th><%= model_class.human_attribute_name(:Description) %></th>
@@ -181,7 +179,7 @@
     <% @knowandculs.each do |knowandcul| %>
       <tr>
         <% if knowandcul.ImpOwner_id == 3 %>
-        <td><%= knowandcul.id %></td>
+        <!-- <td><%= knowandcul.id %></td> -->
         <!-- <td><%= knowandcul.Name %></td> -->
         <td><%= link_to knowandcul.Name, knowandcul_path(knowandcul) %></td>
         <td><%= knowandcul.Summary %></td>
