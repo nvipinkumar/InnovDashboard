@@ -1,7 +1,5 @@
 <%= form_for @knowandcul, :html => { :class => 'form-horizontal' } do |f| %>
 
-<!-- <div class="col-md-6 col-md-offset-1"> -->
-
   <div class="form-group">
     <%= f.label "Idea Name", :class => 'control-label' %>
     <%= f.text_field :Name, :class => 'form-control' %>
@@ -47,9 +45,8 @@
   
   <br />
   <div class="form-group">
-    <%= f.submit 'Create', :class => 'btn btn-primary' %>
+    <%= f.submit nil, :class => 'btn btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 knowandculs_path, :class => 'btn btn-default' %>
   </div>
-<!-- </div> -->
 <% end %>
