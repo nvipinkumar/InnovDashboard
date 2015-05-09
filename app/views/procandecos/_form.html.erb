@@ -48,7 +48,12 @@
 
   <br />
   <div class="form-group">
-    <%= f.submit 'Create', :class => 'btn btn-primary' %>
+    <% if params[:action] == 'new' %>
+      <%= f.submit 'Create Idea', :class => 'btn btn-primary' %>
+    <% elsif params[:action] == 'edit' %>
+      <%= f.submit 'Update Idea', :class => 'btn btn-primary' %>
+    <% end %>
+
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 procandecos_path, :class => 'btn btn-default' %>
   </div> 

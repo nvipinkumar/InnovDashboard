@@ -4,7 +4,7 @@
   <h1 align="center"><%= 'Process and Ecosystem' %></h1></br >
 
 <!-- <h4><span style="padding-left:80%"><%= 'Process and Ecosystem' %></span></h4> -->
-<h4><%= 'Process and Ecosystem' %><span style="padding-left:80%"><%= link_to "Create an Idea",
+<h4><b><%= 'Shift left ecosystem:' %></b><i><%= ' Deepak(VC++), Rahul(C#), Santosh (MPages,Java)'%></i><span style="padding-left:55%"><%= link_to "Create an Idea",
             new_procandeco_path %></span></h4>
 </div>
 <style>
@@ -18,7 +18,7 @@
   <col width="100">
   <col width="100">
   <col width="100">
-  <col width="200">
+  <col width="300">
   <thead>
     <tr>
       <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
@@ -30,7 +30,7 @@
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
       <th><%= model_class.human_attribute_name("Action Item") %></th>
-      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -39,7 +39,7 @@
     <% @procandecos.each do |procandeco| %>
       <tr>
         <!-- <td><%= link_to procandeco.id, procandeco_path(procandeco) %></td> -->
-        <% if procandeco.ImpOwner_id == 1 %>
+        <% if procandeco.ImpOwner_id == 4 or procandeco.ImpOwner_id == 5 or procandeco.ImpOwner_id == 6 %>
         <td><%= link_to procandeco.Name, procandeco_path(procandeco) %></td>
         <!-- <td><%= procandeco.Name %></td> -->
         <td><%= procandeco.Summary %></td>
@@ -49,7 +49,7 @@
         <td><%= procandeco.GetStatus %></td>
         <td><%= procandeco.Comments %></td>
         <td><%= procandeco.Action %></td>
-        <td><%= procandeco.GetOwner %></td>
+        <!-- <td><%= procandeco.GetOwner %></td> -->
         <!-- <td><%=l procandeco.created_at %></td> -->
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -75,7 +75,7 @@
 </br ></br ></br ></br >
 
 <!-- <h4><span style="padding-left:80%"><%= 'Process and Ecosystem' %></span></h4> -->
-<h4><%= 'Process and Ecosystem' %><span style="padding-left:80%"><%= link_to "Create an Idea",
+<h4><b><%= 'Keep it Simple:' %></b><i><%= ' Rachana'%></i><span style="padding-left:78%"><%= link_to "Create an Idea",
             new_procandeco_path %></span></h4>
 </div>
 <style>
@@ -89,76 +89,7 @@
   <col width="100">
   <col width="100">
   <col width="100">
-  <col width="200">
-  <thead>
-    <tr>
-      <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
-      <th><%= model_class.human_attribute_name(:Name) %></th>
-      <th><%= model_class.human_attribute_name(:Summary) %></th>
-      <th><%= model_class.human_attribute_name(:Description) %></th>
-      <th><%= model_class.human_attribute_name(:Owner) %></th>
-      <th><%= model_class.human_attribute_name("Reviewed by") %></th>
-      <th><%= model_class.human_attribute_name(:Status_id) %></th>
-      <th><%= model_class.human_attribute_name(:Comments) %></th>
-      <th><%= model_class.human_attribute_name("Action Item") %></th>
-      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
-      <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
-      <th><%=t '.actions', :default => t("helpers.actions") %></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @procandecos.each do |procandeco| %>
-      <tr>
-        <!-- <td><%= link_to procandeco.id, procandeco_path(procandeco) %></td> -->
-        <% if procandeco.ImpOwner_id == 2 %>
-        <td><%= link_to procandeco.Name, procandeco_path(procandeco) %></td>
-        <!-- <td><%= procandeco.Name %></td> -->
-        <td><%= procandeco.Summary %></td>
-        <td><%= procandeco.Description %></td>
-        <td><%= procandeco.Owner %></td>
-        <td><%= procandeco.Reviewed %></td>
-        <td><%= procandeco.GetStatus %></td>
-        <td><%= procandeco.Comments %></td>
-        <td><%= procandeco.Action %></td>
-        <td><%= procandeco.GetOwner %></td>
-        <!-- <td><%=l procandeco.created_at %></td> -->
-        <td>
-          <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_procandeco_path(procandeco), :class => 'btn btn-primary btn-xs' %>
-          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-                      procandeco_path(procandeco),
-                      :method => :delete,
-                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                      :class => 'btn btn-danger btn-xs' %>
-        </td>
-      </tr>
-      <% end %>
-    <% end %>
-  </tbody>
-</table>
-
-<div class="page-header">
-  <!-- <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1> -->
-  
-</br ></br ></br ></br >
-
-<!-- <h4><span style="padding-left:80%"><%= 'Process and Ecosystem' %></span></h4> -->
-<h4><%= 'Process and Ecosystem' %><span style="padding-left:80%"><%= link_to "Create an Idea",
-            new_procandeco_path %></span></h4>
-
-</div>
-<style>
-   table {border-collapse:collapse; table-layout:fixed; width:800px;}
-   table td { word-wrap:break-word;}
-</style>
-<table class="table table-striped">
-  <col width="150">
-  <col width="150">
   <col width="300">
-  <col width="100">
-  <col width="100">
-  <col width="100">
-  <col width="200">
   <thead>
     <tr>
       <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
@@ -170,7 +101,7 @@
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
       <th><%= model_class.human_attribute_name("Action Item") %></th>
-      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -179,7 +110,7 @@
     <% @procandecos.each do |procandeco| %>
       <tr>
         <!-- <td><%= link_to procandeco.id, procandeco_path(procandeco) %></td> -->
-        <% if procandeco.ImpOwner_id == 3 %>
+        <% if procandeco.ImpOwner_id == 7 %>
         <td><%= link_to procandeco.Name, procandeco_path(procandeco) %></td>
         <!-- <td><%= procandeco.Name %></td> -->
         <td><%= procandeco.Summary %></td>
@@ -189,7 +120,7 @@
         <td><%= procandeco.GetStatus %></td>
         <td><%= procandeco.Comments %></td>
         <td><%= procandeco.Action %></td>
-        <td><%= procandeco.GetOwner %></td>
+        <!-- <td><%= procandeco.GetOwner %></td> -->
         <!-- <td><%=l procandeco.created_at %></td> -->
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

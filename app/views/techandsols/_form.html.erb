@@ -46,9 +46,14 @@
     <%= f.collection_select :ImpOwner_id, ImpOwner.all, :id, :ImperativeOwner, include_blank: false %>
   </div>
 
-  <div class="form-actions">
-    <%= f.submit nil, :class => 'btn btn-primary' %>
+  <div class="form-group">
+    <% if params[:action] == 'new' %>
+      <%= f.submit 'Create Idea', :class => 'btn btn-primary' %>
+    <% elsif params[:action] == 'edit' %>
+      <%= f.submit 'Update Idea', :class => 'btn btn-primary' %>
+    <% end %>
+
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                techandsols_path, :class => 'btn' %>
+                techandsols_path, :class => 'btn btn-default' %>
   </div>
 <% end %>

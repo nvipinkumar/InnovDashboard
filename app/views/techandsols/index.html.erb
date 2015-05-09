@@ -4,7 +4,7 @@
   <h1 align="center"><%= 'Technology and Solution' %></h1></br >
 
 <!-- <h4><span style="padding-left:80%"><%= 'Technology and Solution' %></span></h4> -->
-<h4><%= 'Technology and Solution' %><span style="padding-left:80%"><%= link_to "Create an Idea",
+<h4><b><%= 'Tech Currency:' %></b><i><%= ' Rahul, Lloyd(C# - WPF), Rajesh(Mpages)'%></i><span style="padding-left:60%"><%= link_to "Create an Idea",
             new_techandsol_path %></span></h4>
 </div>
 <style>
@@ -18,7 +18,7 @@
   <col width="100">
   <col width="100">
   <col width="100">
-  <col width="200">
+  <col width="300">
   <thead>
     <tr>
       <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
@@ -30,7 +30,7 @@
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
       <th><%= model_class.human_attribute_name("Action Item") %></th>
-      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -40,7 +40,7 @@
       <tr>
         <!-- <td><%= link_to techandsol.id, techandsol_path(techandsol) %></td> 
         <td><%= techandsol.Name %></td> -->
-        <% if techandsol.ImpOwner_id == 1 %>
+        <% if techandsol.ImpOwner_id == 8 or techandsol.ImpOwner_id == 9 or techandsol.ImpOwner_id == 10 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
         <td><%= techandsol.Summary %></td>
         <td><%= techandsol.Description %></td>
@@ -49,7 +49,7 @@
         <td><%= techandsol.GetStatus %></td>
         <td><%= techandsol.Comments %></td>
         <td><%= techandsol.Action %></td>
-        <td><%= techandsol.GetOwner %></td>
+        <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -76,7 +76,7 @@
 </br ></br ></br ></br >
 
 <!-- <h4><span style="padding-left:80%"><%= 'Technology and Solution' %></span></h4> -->
-<h4><%= 'Technology and Solution' %><span style="padding-left:80%"><%= link_to "Create an Idea",
+<h4><b><%= 'Advance Platforms:' %></b><i><%= ' Ajith(Orion), Vipin(FHIR)'%></i><span style="padding-left:65%"><%= link_to "Create an Idea",
             new_techandsol_path %></span></h4>
 </div>
 <style>
@@ -90,7 +90,7 @@
   <col width="100">
   <col width="100">
   <col width="100">
-  <col width="200">
+  <col width="300">
   <thead>
     <tr>
       <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
@@ -102,7 +102,7 @@
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
       <th><%= model_class.human_attribute_name("Action Item") %></th>
-      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -112,7 +112,7 @@
       <tr>
         <!-- <td><%= link_to techandsol.id, techandsol_path(techandsol) %></td> 
         <td><%= techandsol.Name %></td> -->
-        <% if techandsol.ImpOwner_id == 2 %>
+        <% if techandsol.ImpOwner_id == 11 or techandsol.ImpOwner_id == 12 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
         <td><%= techandsol.Summary %></td>
         <td><%= techandsol.Description %></td>
@@ -121,7 +121,7 @@
         <td><%= techandsol.GetStatus %></td>
         <td><%= techandsol.Comments %></td>
         <td><%= techandsol.Action %></td>
-        <td><%= techandsol.GetOwner %></td>
+        <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -144,7 +144,7 @@
   </br ></br ></br ></br >
 
 <!-- <h4><span style="padding-left:80%"><%= 'Technology and Solution' %></span></h4> -->
-<h4><%= 'Technology and Solution' %><span style="padding-left:80%"><%= link_to "Create an Idea",
+<h4><b><%= 'Next Gen Analytics & Reporting:' %></b><i><%= ' Javed'%></i><span style="padding-left:70%"><%= link_to "Create an Idea",
             new_techandsol_path %></span></h4>
 </div>
 <style>
@@ -158,7 +158,7 @@
   <col width="100">
   <col width="100">
   <col width="100">
-  <col width="200">
+  <col width="300">
   <thead>
     <tr>
       <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
@@ -170,7 +170,7 @@
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
       <th><%= model_class.human_attribute_name("Action Item") %></th>
-      <th><%= model_class.human_attribute_name("Imperative Owner") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
@@ -180,7 +180,7 @@
       <tr>
         <!-- <td><%= link_to techandsol.id, techandsol_path(techandsol) %></td> 
         <td><%= techandsol.Name %></td> -->
-        <% if techandsol.ImpOwner_id == 3 %>
+        <% if techandsol.ImpOwner_id == 13 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
         <td><%= techandsol.Summary %></td>
         <td><%= techandsol.Description %></td>
@@ -189,7 +189,76 @@
         <td><%= techandsol.GetStatus %></td>
         <td><%= techandsol.Comments %></td>
         <td><%= techandsol.Action %></td>
-        <td><%= techandsol.GetOwner %></td>
+        <!-- <td><%= techandsol.GetOwner %></td> -->
+        <!-- <td><%=l techandsol.created_at %></td> -->
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_techandsol_path(techandsol), :class => 'btn btn-primary btn-xs' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      techandsol_path(techandsol),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-danger btn-xs' %>
+        </td>
+      </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
+
+
+<!-- Table4 -->
+<div class="page-header">
+  <!-- <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1> -->
+  </br ></br ></br ></br >
+
+<!-- <h4><span style="padding-left:80%"><%= 'Technology and Solution' %></span></h4> -->
+<h4><b><%= 'Vision & Industry Standard:' %></b><i><%= ' Ram, Chetan, Pratik'%></i><span style="padding-left:65%"><%= link_to "Create an Idea",
+            new_techandsol_path %></span></h4>
+</div>
+<style>
+   table {border-collapse:collapse; table-layout:fixed; width:800px;}
+   table td { word-wrap:break-word;}
+</style>
+<table class="table table-striped">
+  <col width="150">
+  <col width="150">
+  <col width="300">
+  <col width="100">
+  <col width="100">
+  <col width="100">
+  <col width="300">
+  <thead>
+    <tr>
+      <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
+      <th><%= model_class.human_attribute_name(:Name) %></th>
+      <th><%= model_class.human_attribute_name(:Summary) %></th>
+      <th><%= model_class.human_attribute_name(:Description) %></th>
+      <th><%= model_class.human_attribute_name(:Owner) %></th>
+      <th><%= model_class.human_attribute_name("Reviewed by") %></th>
+      <th><%= model_class.human_attribute_name(:Status_id) %></th>
+      <th><%= model_class.human_attribute_name(:Comments) %></th>
+      <th><%= model_class.human_attribute_name("Action Item") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
+      <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @techandsols.each do |techandsol| %>
+      <tr>
+        <!-- <td><%= link_to techandsol.id, techandsol_path(techandsol) %></td> 
+        <td><%= techandsol.Name %></td> -->
+        <% if techandsol.ImpOwner_id == 14 %>
+        <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
+        <td><%= techandsol.Summary %></td>
+        <td><%= techandsol.Description %></td>
+        <td><%= techandsol.Owner %></td>
+        <td><%= techandsol.Reviewed %></td>
+        <td><%= techandsol.GetStatus %></td>
+        <td><%= techandsol.Comments %></td>
+        <td><%= techandsol.Action %></td>
+        <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
