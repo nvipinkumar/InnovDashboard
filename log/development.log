@@ -19221,3 +19221,575 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-10 00:52:05 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 00:56:40 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.4ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (129.3ms)
+Completed 200 OK in 1150ms (Views: 1116.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:32:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.9ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (232.1ms)
+Completed 200 OK in 1644ms (Views: 1583.4ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:35:06 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.6ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 542ms (Views: 535.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:07 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:35:13 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.6ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 568ms (Views: 562.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:14 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.5ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 540ms (Views: 534.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-10 23:35:46 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.4ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (103.0ms)
+Completed 200 OK in 589ms (Views: 584.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-10 23:46:13 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-10 23:46:14 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:51:14 +0530
+Processing by TechandsolsController#index as HTML
+  Rendered techandsols/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 28ms
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/techandsols/index.html.erb:7: syntax error, unexpected '='
+...;@output_buffer.append=( class="col-md-8" 'Tech Currency:' )...
+...                               ^
+/media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/techandsols/index.html.erb:7: syntax error, unexpected '='
+...;@output_buffer.append=( class="col-md-4" link_to "Create an...
+...                               ^
+/media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/techandsols/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...pend=( class="col-md-4" link_to "Create an Idea",
+...                               ^):
+  app/views/techandsols/index.html.erb:7: syntax error, unexpected '='
+  app/views/techandsols/index.html.erb:7: syntax error, unexpected '='
+  app/views/techandsols/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (42.5ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-10 23:51:39 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.9ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (96.0ms)
+Completed 200 OK in 566ms (Views: 560.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-10 23:51:40 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-11 00:03:11 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.6ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 555ms (Views: 550.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:12 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-11 00:03:49 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.4ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 558ms (Views: 554.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-11 00:03:50 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.5ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (104.0ms)
+Completed 200 OK in 616ms (Views: 612.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:29 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:30 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-11 00:06:33 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.6ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 531ms (Views: 525.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-11 00:06:34 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-11 00:07:09 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.4ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 530ms (Views: 525.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:10 +0530
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-11 00:07:27 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.4ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (97.8ms)
+Completed 200 OK in 620ms (Views: 616.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-11 00:07:28 +0530

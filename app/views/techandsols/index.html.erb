@@ -4,21 +4,41 @@
   <h1 align="center"><%= 'Technology and Solution' %></h1></br >
 
 <!-- <h4><span style="padding-left:80%"><%= 'Technology and Solution' %></span></h4> -->
-<h4><b><%= 'Tech Currency:' %></b><i><%= ' Rahul, Lloyd(C# - WPF), Rajesh(Mpages)'%></i><span style="padding-left:60%"><%= link_to "Create an Idea",
-            new_techandsol_path %></span></h4>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10">
+      <h4><b><%= 'Tech Currency:' %></b><i><%= ' Rahul, Lloyd(C# - WPF), Rajesh(Mpages)'%></i></h4>
+    </div>
+    <div class="col-md-2">
+      <h4><%= link_to "Create an Idea", new_techandsol_path %></h4>
+    </div>
+  </div>
+</div>
+
 </div>
 <style>
    table {border-collapse:collapse; table-layout:fixed; width:800px;}
    table td { word-wrap:break-word;}
 </style>
 <table class="table table-striped">
-  <col width="150">
+  <colgroup>
+    <col class="col-md-1">
+    <col class="col-md-1">
+    <col class="col-md-2">
+    <col class="col-md-1">
+    <col class="col-md-1">
+    <col class="col-md-1">
+    <col class="col-md-2">
+    <col class="col-md-1">
+    <col class="col-md-1">    
+  </colgroup>  
+  <!-- <col width="150">
   <col width="150">
   <col width="300">
   <col width="100">
   <col width="100">
   <col width="100">
-  <col width="300">
+  <col width="300"> -->
   <thead>
     <tr>
       <!-- <th><%= model_class.human_attribute_name(:id) %></th> -->
