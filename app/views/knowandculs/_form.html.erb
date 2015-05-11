@@ -38,9 +38,9 @@
   
   <div class="form-group">
     <%= f.label "Status:" %>
-    <%= f.collection_select :Status_id, IdeaStatus.all, :id, :Status, include_blank: false %>
+    <%= f.collection_select :Status_id , IdeaStatus.all, :id, :Status, include_blank: false %>
     <%= f.label "Imperative Owner:" %>
-    <%= f.collection_select :ImpOwner_id, ImpOwner.all, :id, :ImperativeOwner, include_blank: false %>
+    <%= f.collection_select :ImpOwner_id, ImpOwner.find(1,2,3), :id, :ImperativeOwner, include_blank: false %>
   </div>
   
   <br />

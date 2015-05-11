@@ -43,7 +43,7 @@
     <%= f.label "Status:" %>
     <%= f.collection_select :Status_id, IdeaStatus.all, :id, :Status, include_blank: false %>
     <%= f.label "Imperative Owner:" %>
-    <%= f.collection_select :ImpOwner_id, ImpOwner.all, :id, :ImperativeOwner, include_blank: false %>
+    <%= f.collection_select :ImpOwner_id, ImpOwner.find(4,5,6,7), :id, :ImperativeOwner, include_blank: false %>
   </div>
 
   <br />
