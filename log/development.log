@@ -22565,3 +22565,506 @@ Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0e
 
 
 Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:27:22 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:35:13 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.5ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (125.9ms)
+Completed 200 OK in 1080ms (Views: 1050.7ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:14 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:35:36 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (38.9ms)
+Completed 200 OK in 554ms (Views: 549.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:36 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:36 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:36 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:35:36 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:36 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:37 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:37 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:35:37 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:36:14 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.4ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.9ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (110.7ms)
+Completed 200 OK in 624ms (Views: 619.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:15 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:36:18 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.9ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 524ms (Views: 520.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:36:19 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.8ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 523ms (Views: 517.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:20 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:36:33 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (101.5ms)
+Completed 200 OK in 591ms (Views: 586.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:36:34 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:37:03 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.5ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (1.1ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 583ms (Views: 576.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:04 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:37:30 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.7ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 513ms (Views: 509.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:31 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:37:49 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.6ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (102.7ms)
+Completed 200 OK in 593ms (Views: 588.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:37:50 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:38:08 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.9ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 577ms (Views: 572.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:38:09 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:39:10 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.4ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (1.8ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (51.1ms)
+Completed 200 OK in 559ms (Views: 552.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:11 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:39:19 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.8ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (104.4ms)
+Completed 200 OK in 602ms (Views: 597.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:19 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:19 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:19 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:19 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:39:20 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:20 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:20 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:39:20 +0530
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-13 21:41:05 +0530
+Processing by KnowandculsController#index as HTML
+  [1m[35mKnowandcul Load (0.6ms)[0m  SELECT "knowandculs".* FROM "knowandculs"
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 508ms (Views: 494.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-13 21:43:23 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (0.4ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (127.4ms)
+Completed 200 OK in 615ms (Views: 604.0ms | ActiveRecord: 3.1ms)

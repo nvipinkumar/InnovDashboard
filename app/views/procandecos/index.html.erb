@@ -65,14 +65,13 @@
         <td><%= procandeco.Action %></td>
         <!-- <td><%= procandeco.GetOwner %></td> -->
         <!-- <td><%=l procandeco.created_at %></td> -->
-        <td>
+        <td align="center">
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_procandeco_path(procandeco), :class => 'btn btn-primary btn-xs' %>
+                      edit_procandeco_path(procandeco) %><br>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       procandeco_path(procandeco),
                       :method => :delete,
-                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                      :class => 'btn btn-danger btn-xs' %>
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
         </td>
       </tr>
       <% end %>
@@ -150,14 +149,13 @@
         <td><%= procandeco.Action %></td>
         <!-- <td><%= procandeco.GetOwner %></td> -->
         <!-- <td><%=l procandeco.created_at %></td> -->
-        <td>
+        <td align="center">
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_procandeco_path(procandeco), :class => 'btn btn-primary btn-xs' %>
+                      edit_procandeco_path(procandeco) %><br>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       procandeco_path(procandeco),
                       :method => :delete,
-                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                      :class => 'btn btn-danger btn-xs' %>
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
         </td>
       </tr>
       <% end %>
