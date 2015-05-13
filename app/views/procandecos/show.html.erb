@@ -12,16 +12,16 @@
   <dd><%= @procandeco.Description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
   <dd><%= @procandeco.Owner %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Reviewed) %>:</strong></dt>
+  <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
   <dd><%= @procandeco.Reviewed %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
-  <dd><%= @procandeco.Status_id %></dd>
+  <dd><%= @procandeco.GetStatus %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
   <dd><%= @procandeco.Comments %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Action) %>:</strong></dt>
+  <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
   <dd><%= @procandeco.Action %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:ImpOwner_id) %>:</strong></dt>
-  <dd><%= @procandeco.ImpOwner_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
+  <dd><%= @procandeco.GetOwner %></dd>
 </dl>
 
 <div class="form-actions">

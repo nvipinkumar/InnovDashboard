@@ -12,16 +12,16 @@
   <dd><%= @techandsol.Description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
   <dd><%= @techandsol.Owner %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Reviewed) %>:</strong></dt>
+  <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
   <dd><%= @techandsol.Reviewed %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
-  <dd><%= @techandsol.Status_id %></dd>
+  <dd><%= @techandsol.GetStatus %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
   <dd><%= @techandsol.Comments %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Action) %>:</strong></dt>
+  <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
   <dd><%= @techandsol.Action %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:ImpOwner_id) %>:</strong></dt>
-  <dd><%= @techandsol.ImpOwner_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
+  <dd><%= @techandsol.GetOwner %></dd>
 </dl>
 
 <div class="form-actions">
