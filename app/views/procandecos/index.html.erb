@@ -56,12 +56,12 @@
         <% if procandeco.ImpOwner_id == 4 or procandeco.ImpOwner_id == 5 or procandeco.ImpOwner_id == 6 %>
         <td><%= link_to procandeco.Name, procandeco_path(procandeco) %></td>
         <!-- <td><%= procandeco.Name %></td> -->
-        <td><%= procandeco.Summary %></td>
-        <td><%= procandeco.Description %></td>
+        <td><%= auto_link(procandeco.Summary) %></td>
+        <td><%= auto_link(procandeco.Description) %></td>
         <td><%= procandeco.Owner %></td>
         <td><%= procandeco.Reviewed %></td>
         <td><%= procandeco.GetStatus %></td>
-        <td><%= procandeco.Comments %></td>
+        <td><%= auto_link(procandeco.Comments) %></td>
         <td><%= procandeco.Action %></td>
         <!-- <td><%= procandeco.GetOwner %></td> -->
         <!-- <td><%=l procandeco.created_at %></td> -->
@@ -141,12 +141,12 @@
         <% if procandeco.ImpOwner_id == 7 %>
         <td><%= link_to procandeco.Name, procandeco_path(procandeco) %></td>
         <!-- <td><%= procandeco.Name %></td> -->
-        <td><%= procandeco.Summary %></td>
-        <td><%= procandeco.Description %></td>
+        <td><%= auto_link(procandeco.Summary) %></td>
+        <td><%= auto_link(procandeco.Description) %></td>
         <td><%= procandeco.Owner %></td>
         <td><%= procandeco.Reviewed %></td>
         <td><%= procandeco.GetStatus %></td>
-        <td><%= procandeco.Comments %></td>
+        <td><%= auto_link(procandeco.Comments) %></td>
         <td><%= procandeco.Action %></td>
         <!-- <td><%= procandeco.GetOwner %></td> -->
         <!-- <td><%=l procandeco.created_at %></td> -->

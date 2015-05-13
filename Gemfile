@@ -5,6 +5,7 @@ gem 'twitter-bootswatch-rails'
 gem 'twitter-bootswatch-rails-helpers'
 gem 'execjs'
 gem 'therubyracer',  platforms: :ruby
+gem 'rails_autolink'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'

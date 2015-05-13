@@ -22107,3 +22107,382 @@ Processing by TechandsolsController#show as HTML
   [1m[35mImpOwner Load (0.8ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
   Rendered techandsols/show.html.erb within layouts/application (17.7ms)
 Completed 200 OK in 483ms (Views: 474.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-13 21:06:11 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.4ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.9ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (127.9ms)
+Completed 200 OK in 1100ms (Views: 1076.7ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-13 21:06:14 +0530
+Processing by KnowandculsController#index as HTML
+  [1m[36mKnowandcul Load (0.7ms)[0m  [1mSELECT "knowandculs".* FROM "knowandculs"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 519ms (Views: 509.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:06:16 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (1.0ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (104.6ms)
+Completed 500 Internal Server Error in 132ms
+
+ActionView::Template::Error (undefined method `auto_link' for #<#<Class:0x007fdb69e281b8>:0x007fdb6ace7e38>):
+    18:   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
+    19:   <dd><%= @knowandcul.GetStatus %></dd>
+    20:   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
+    21:   <dd><%= auto_link(@knowandcul.Comments) %></dd>
+    22:   <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
+    23:   <dd><%= @knowandcul.Action %></dd>
+    24:   <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
+  app/views/knowandculs/show.html.erb:21:in `_app_views_knowandculs_show_html_erb__989596158103112290_70290183238960'
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.0ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (56.2ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:06:17 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.3ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `auto_link' for #<#<Class:0x007fdb69e281b8>:0x007fdb6a1da090>):
+    18:   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
+    19:   <dd><%= @knowandcul.GetStatus %></dd>
+    20:   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
+    21:   <dd><%= auto_link(@knowandcul.Comments) %></dd>
+    22:   <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
+    23:   <dd><%= @knowandcul.Action %></dd>
+    24:   <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
+  app/views/knowandculs/show.html.erb:21:in `_app_views_knowandculs_show_html_erb__989596158103112290_70290177443100'
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.5ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:12:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.5ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (80.2ms)
+Completed 500 Internal Server Error in 151ms
+
+ActionView::Template::Error (undefined method `auto_link' for #<#<Class:0x00000004d18130>:0x00000004d2b118>):
+    20:   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
+    21:   <dd><%= @knowandcul.GetStatus %></dd>
+    22:   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
+    23:   <dd><%= auto_link(@knowandcul.Comments) %></dd>
+    24:   <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
+    25:   <dd><%= @knowandcul.Action %></dd>
+    26:   <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
+  app/views/knowandculs/show.html.erb:23:in `_app_views_knowandculs_show_html_erb___77728471915857312_40571220'
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:13:48 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.6ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (113.1ms)
+Completed 200 OK in 1143ms (Views: 1080.9ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:13:49 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:13:49 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:13:49 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:13:49 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:13:50 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:13:50 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:13:50 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:13:50 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:14:13 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (1.1ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.6ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 541ms (Views: 535.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:14:13 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:14:13 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:14:13 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:14:14 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:14:14 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:14:14 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:14:14 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:14:14 +0530
+
+
+Started GET "/knowandculs/1/edit" for 127.0.0.1 at 2015-05-13 21:14:20 +0530
+Processing by KnowandculsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.8ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "idea_statuses".* FROM "idea_statuses"
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (1, 2, 3)[0m
+  Rendered knowandculs/_form.html.erb (86.3ms)
+  Rendered knowandculs/edit.html.erb within layouts/application (101.0ms)
+Completed 200 OK in 630ms (Views: 624.3ms | ActiveRecord: 1.9ms)
+
+
+Started PATCH "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:14:48 +0530
+Processing by KnowandculsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+vuyei+szGZYQ5G6MF2x8Q7KtgZgimedkr4rrLmgOHpVD+2wV3lNpcZzZUhpVfLJskW6wvWYu9u5S6N2gB7sFA==", "knowandcul"=>{"Name"=>"Test Idea", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary http://www.facebook.com", "Action"=>"Get it reviewed", "Status_id"=>"1", "ImpOwner_id"=>"1"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[35mKnowandcul Load (0.5ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "knowandculs" SET "Description" = ?, "Comments" = ?, "updated_at" = ? WHERE "knowandculs"."id" = ?  [["Description", "This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary "], ["Comments", "This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary http://www.facebook.com"], ["updated_at", "2015-05-13 15:44:48.047601"], ["id", 1]]
+  [1m[36m (249.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/knowandculs/1
+Completed 302 Found in 262ms (ActiveRecord: 251.5ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-13 21:14:48 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.8ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (72.4ms)
+Completed 200 OK in 575ms (Views: 570.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-13 21:15:15 +0530
+Processing by KnowandculsController#index as HTML
+  [1m[36mKnowandcul Load (0.5ms)[0m  [1mSELECT "knowandculs".* FROM "knowandculs"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 531ms (Views: 526.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-13 21:17:28 +0530
+Processing by KnowandculsController#index as HTML
+  [1m[35mKnowandcul Load (0.4ms)[0m  SELECT "knowandculs".* FROM "knowandculs"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 541ms (Views: 538.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-13 21:17:29 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:19:41 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 543ms (Views: 522.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-13 21:19:44 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.9ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 478ms (Views: 472.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-13 21:19:46 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (1.0ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 548ms (Views: 543.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-13 21:21:01 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.5ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (75.3ms)
+Completed 200 OK in 583ms (Views: 572.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/techandsols/2" for 127.0.0.1 at 2015-05-13 21:21:03 +0530
+Processing by TechandsolsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTechandsol Load (1.1ms)[0m  [1mSELECT  "techandsols".* FROM "techandsols" WHERE "techandsols"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdeaStatus Load (1.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered techandsols/show.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 518ms (Views: 510.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-13 21:21:05 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.7ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (55.3ms)
+Completed 200 OK in 550ms (Views: 545.5ms | ActiveRecord: 3.9ms)

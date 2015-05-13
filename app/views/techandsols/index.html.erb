@@ -62,12 +62,12 @@
         <td><%= techandsol.Name %></td> -->
         <% if techandsol.ImpOwner_id == 8 or techandsol.ImpOwner_id == 9 or techandsol.ImpOwner_id == 10 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
-        <td><%= techandsol.Summary %></td>
-        <td><%= techandsol.Description %></td>
+        <td><%= auto_link(techandsol.Summary) %></td>
+        <td><%= auto_link(techandsol.Description) %></td>
         <td><%= techandsol.Owner %></td>
         <td><%= techandsol.Reviewed %></td>
         <td><%= techandsol.GetStatus %></td>
-        <td><%= techandsol.Comments %></td>
+        <td><%= auto_link(techandsol.Comments) %></td>
         <td><%= techandsol.Action %></td>
         <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->
@@ -148,12 +148,12 @@
         <td><%= techandsol.Name %></td> -->
         <% if techandsol.ImpOwner_id == 11 or techandsol.ImpOwner_id == 12 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
-        <td><%= techandsol.Summary %></td>
-        <td><%= techandsol.Description %></td>
+        <td><%= auto_link(techandsol.Summary) %></td>
+        <td><%= auto_link(techandsol.Description) %></td>
         <td><%= techandsol.Owner %></td>
         <td><%= techandsol.Reviewed %></td>
         <td><%= techandsol.GetStatus %></td>
-        <td><%= techandsol.Comments %></td>
+        <td><%= auto_link(techandsol.Comments) %></td>
         <td><%= techandsol.Action %></td>
         <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->
@@ -229,12 +229,12 @@
         <td><%= techandsol.Name %></td> -->
         <% if techandsol.ImpOwner_id == 13 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
-        <td><%= techandsol.Summary %></td>
-        <td><%= techandsol.Description %></td>
+        <td><%= auto_link(techandsol.Summary) %></td>
+        <td><%= auto_link(techandsol.Description) %></td>
         <td><%= techandsol.Owner %></td>
         <td><%= techandsol.Reviewed %></td>
         <td><%= techandsol.GetStatus %></td>
-        <td><%= techandsol.Comments %></td>
+        <td><%= auto_link(techandsol.Comments) %></td>
         <td><%= techandsol.Action %></td>
         <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->
@@ -312,12 +312,12 @@
         <td><%= techandsol.Name %></td> -->
         <% if techandsol.ImpOwner_id == 14 %>
         <td><%= link_to techandsol.Name, techandsol_path(techandsol) %></td>
-        <td><%= techandsol.Summary %></td>
-        <td><%= techandsol.Description %></td>
+        <td><%= auto_link(techandsol.Summary) %></td>
+        <td><%= auto_link(techandsol.Description) %></td>
         <td><%= techandsol.Owner %></td>
         <td><%= techandsol.Reviewed %></td>
         <td><%= techandsol.GetStatus %></td>
-        <td><%= techandsol.Comments %></td>
+        <td><%= auto_link(techandsol.Comments) %></td>
         <td><%= techandsol.Action %></td>
         <!-- <td><%= techandsol.GetOwner %></td> -->
         <!-- <td><%=l techandsol.created_at %></td> -->

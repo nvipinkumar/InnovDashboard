@@ -7,9 +7,9 @@
   <dt><strong><%= model_class.human_attribute_name(:Name) %>:</strong></dt>
   <dd><%= @techandsol.Name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Summary) %>:</strong></dt>
-  <dd><%= @techandsol.Summary %></dd>
+  <dd><%= auto_link(@techandsol.Summary) %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Description) %>:</strong></dt>
-  <dd><%= @techandsol.Description %></dd>
+  <dd><%= auto_link(@techandsol.Description) %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
   <dd><%= @techandsol.Owner %></dd>
   <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
@@ -17,7 +17,7 @@
   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
   <dd><%= @techandsol.GetStatus %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
-  <dd><%= @techandsol.Comments %></dd>
+  <dd><%= auto_link(@techandsol.Comments) %></dd>
   <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
   <dd><%= @techandsol.Action %></dd>
   <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>

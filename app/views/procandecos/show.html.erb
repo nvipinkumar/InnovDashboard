@@ -7,9 +7,9 @@
   <dt><strong><%= model_class.human_attribute_name(:Name) %>:</strong></dt>
   <dd><%= @procandeco.Name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Summary) %>:</strong></dt>
-  <dd><%= @procandeco.Summary %></dd>
+  <dd><%= auto_link(@procandeco.Summary) %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Description) %>:</strong></dt>
-  <dd><%= @procandeco.Description %></dd>
+  <dd><%= auto_link(@procandeco.Description) %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
   <dd><%= @procandeco.Owner %></dd>
   <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
@@ -17,7 +17,7 @@
   <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
   <dd><%= @procandeco.GetStatus %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
-  <dd><%= @procandeco.Comments %></dd>
+  <dd><%= auto_link(@procandeco.Comments) %></dd>
   <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
   <dd><%= @procandeco.Action %></dd>
   <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
