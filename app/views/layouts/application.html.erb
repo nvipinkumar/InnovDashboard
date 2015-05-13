@@ -42,7 +42,12 @@
       </div>
     </div>
 
-<div class="col-md-10 col-md-offset-1"><br /><br />
+<div class="col-md-10 col-md-offset-1"><br /><br /><br />
+  <% flash.each do |name, msg| %>
+  <div class="alert alert-<%= name.to_sym == :notice ? 'success' : 'danger' %>" role="alert">
+    <%= msg %>
+  </div>
+  <% end %>
 	<%= yield %>
 </div>
 

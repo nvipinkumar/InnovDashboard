@@ -23502,3 +23502,978 @@ Processing by KnowandculsController#index as HTML
   [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
   Rendered knowandculs/index.html.erb within layouts/application (99.8ms)
 Completed 200 OK in 611ms (Views: 594.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-14 00:31:22 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KnowandculsController#index as HTML
+  [1m[35mKnowandcul Load (0.8ms)[0m  SELECT "knowandculs".* FROM "knowandculs"
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (150.7ms)
+Completed 200 OK in 1164ms (Views: 1117.8ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 00:31:24 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 00:31:29 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.8ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.8ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (1.0ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (1.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (125.0ms)
+Completed 200 OK in 758ms (Views: 734.6ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:01:17 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.9ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (97.2ms)
+  Rendered procandecos/edit.html.erb within layouts/application (104.7ms)
+Completed 200 OK in 571ms (Views: 565.6ms | ActiveRecord: 2.3ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:01:23 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E9TC50V0vbGnUHb6KJi+NAQMStW7EXQkeSUlo+gqAVC8IJ0tPaE8cjlggghxkP0MuINGES4DqGJS0K150ZTVPg==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "procandecos" SET "Description" = ?, "Comments" = ?, "updated_at" = ? WHERE "procandecos"."id" = ?[0m  [["Description", "This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary "], ["Comments", "This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary "], ["updated_at", "2015-05-13 19:31:23.204441"], ["id", 1]]
+  [1m[35m (315.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 327ms (ActiveRecord: 317.3ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:01:23 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProcandeco Load (1.1ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (1.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.9ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 656ms (Views: 650.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:02:29 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.4ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 603ms (Views: 598.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:02:48 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (1.1ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (1.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 531ms (Views: 525.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 01:02:49 +0530
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:04:32 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.0ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (72.5ms)
+  Rendered procandecos/edit.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 693ms (Views: 688.4ms | ActiveRecord: 1.6ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:04:35 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nC9vyh1eyNcGEeqQ3Cm2goYA9JdaFh9ryHHSMM8ECVkz2zAAZYtJFJghHmKFIfW6Oo/4U88Ewy3jhFrq9rrdNw==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:04:35 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 596ms (Views: 591.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:04:54 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (1.0ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.9ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.9ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 638ms (Views: 631.1ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:05:29 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.9ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (14.3ms)
+  Rendered procandecos/edit.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 640ms (Views: 633.3ms | ActiveRecord: 3.0ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:05:33 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q8aw0S8rNR39q7syP+eExOK4vdQXKPktId6FwF8TZg4EMu8bV/603mObT8Bm78f8XjexEII6JWsKKw0aZq2yYA==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:05:33 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (1.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 634ms (Views: 629.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:05:38 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.7ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.6ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 679ms (Views: 673.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:05:48 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (2.2ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (1.0ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (14.7ms)
+  Rendered procandecos/edit.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 529ms (Views: 521.6ms | ActiveRecord: 3.9ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:05:51 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfmnGpCzEXrCIf7//E/BFJLArtUM8GaMRLxwDTbEiZA+DfjQ6GaQuVwRCg2lR4IsLk+iEZniuspvSfjXD3pd/g==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.3ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 8ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:05:51 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.9ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 592ms (Views: 587.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:05:58 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.9ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 624ms (Views: 620.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:06:19 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.8ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (1.0ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (14.0ms)
+  Rendered procandecos/edit.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 592ms (Views: 586.9ms | ActiveRecord: 2.5ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:06:24 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SM1UYGb+SDjVrT4y68O37Qaeunxpfia/tuziruAs1vLnOQuqHivJ+0udysCyy/TVuhG2uPxs+vmdGWp02ZICnA==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.3ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 8ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:06:24 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.1ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.9ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (73.7ms)
+Completed 200 OK in 673ms (Views: 667.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:06:33 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (1.3ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.8ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (1.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (2.1ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 533ms (Views: 525.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:07:48 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.1ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (13.2ms)
+  Rendered procandecos/edit.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 670ms (Views: 665.0ms | ActiveRecord: 2.0ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:07:52 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+ZAiEVHCbKkJeCL5COcLSDF65lW9CiFjmHsRBNM8ODlWZH3bKRftapdI1gtR70hwjfXqkSgY/SWzjpne6oLsVw==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:07:52 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.0ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 563ms (Views: 558.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:07:56 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (1.1ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.7ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.9ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (98.0ms)
+Completed 200 OK in 640ms (Views: 634.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:09:00 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.9ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (1.0ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (15.6ms)
+  Rendered procandecos/edit.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 627ms (Views: 622.7ms | ActiveRecord: 2.7ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:09:05 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/TLQDiLwtUr3kcj8TO0HQFCHGp40hIkZbo0gKjk6E+ZSxo/EWiU0iWmhPA4V5UR47AgWWqGWVV9FeKjwAITHiA==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:09:05 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.4ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 557ms (Views: 553.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:09:09 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.7ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.7ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.9ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (96.9ms)
+Completed 200 OK in 626ms (Views: 619.3ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:10:51 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.2ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (13.9ms)
+  Rendered procandecos/edit.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 674ms (Views: 668.4ms | ActiveRecord: 2.2ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:10:55 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ytV2dTeS1pBHyFDOyG2b7bjUTj6qsU3gsnbIj1iCe4dlISm/T0dXU9n4pDyRZdjVBFtC+j+jkaaZg0BVYTyv6Q==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:10:55 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.6ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 486ms (Views: 481.0ms | ActiveRecord: 2.0ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:10:55 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ytV2dTeS1pBHyFDOyG2b7bjUTj6qsU3gsnbIj1iCe4dlISm/T0dXU9n4pDyRZdjVBFtC+j+jkaaZg0BVYTyv6Q==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:10:55 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.3ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 634ms (Views: 631.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:11:01 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 612ms (Views: 608.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:16:13 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.5ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (14.7ms)
+  Rendered procandecos/edit.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 562ms (Views: 557.9ms | ActiveRecord: 1.7ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:16:17 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+lKHkf0722BBgrMe4mZTxf0S5mtQuUAk9oyNbk0ldNxVpthbhe5ao9+yR+y7bhD9QZ3qr8WrnGLdeQW0dJugsg==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:16:17 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.5ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 639ms (Views: 635.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:16:20 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 569ms (Views: 564.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:17:48 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (13.5ms)
+  Rendered procandecos/edit.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 548ms (Views: 544.7ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:17:50 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XF7/W/mp5Cdu4zfo7VPRR5WQRgpc3zWLs7rkNVovi5nzqqCRgXxl5PDTwxq0W5J/KR9KzsnN6c2YT2zvY5Ff9w==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.3ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:17:50 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 535ms (Views: 531.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:18:01 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (1.1ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (1.1ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (1.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (1.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (107.8ms)
+Completed 200 OK in 645ms (Views: 636.7ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:18:12 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.2ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (11.8ms)
+  Rendered procandecos/edit.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 526ms (Views: 524.1ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:18:16 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"obcUVL3TkEvGsRbU1K1sli6t9puwsf561wb/qncUU/UOQ0uexQYRiFiB4iaNpS+ukiL6XyWjIjz883dwTqqHmw==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 8ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:18:16 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.5ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 553ms (Views: 548.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:18:20 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.7ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 695ms (Views: 690.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:20:22 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.6ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.9ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (14.7ms)
+  Rendered procandecos/edit.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 602ms (Views: 597.3ms | ActiveRecord: 2.1ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:20:25 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IuFHmbdxsm2GoOTGBJn8X2kSJy1Vgv8SaURt5q4mrImNFRhTz6QzrhiQEDRdkb9n1Z0r6cCQI1RCseU8l5h45w==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:20:25 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 659ms (Views: 655.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:20:31 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.9ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.6ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 506ms (Views: 500.2ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:21:45 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.6ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (9.1ms)
+  Rendered procandecos/edit.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 684ms (Views: 680.8ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:21:49 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EgPm4WSdrcBuc49M3pRiDSTG6Ni9mI/lRvzUEo0u9Zm997krHEgsA/BDe76HnCE1mEnkHCiKU6NtCVzItJAh9w==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.8ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 10ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:21:49 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.3ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 535ms (Views: 531.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:22:00 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.3ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.9ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 648ms (Views: 644.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:23:27 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.8ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (8.2ms)
+  Rendered procandecos/edit.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 575ms (Views: 569.4ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:23:31 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4nxLZyPuHcdj/Gp9mr7DNcxbSmstjy+kekQH3db+YUlNiBStWzucBP3Mno/DtoANcNRGr7id8+JRsY8H70C1Jw==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:23:31 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.6ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 658ms (Views: 654.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:23:41 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.6ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 527ms (Views: 522.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:23:52 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.3ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (11.3ms)
+  Rendered procandecos/edit.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 514ms (Views: 509.3ms | ActiveRecord: 1.6ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:23:55 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YGQxv9/RiucnuIRcUg9TyjHJJQlT7Dp2plc0LzHdSHnPkG51pwQLJLmIcK4LBxDyjUYpzcb+5jCNorz1CGOcFw==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.3ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 8ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:23:56 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.9ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.9ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 552ms (Views: 547.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:30:10 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 682ms (Views: 678.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:30:12 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.8ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (7.5ms)
+  Rendered procandecos/edit.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 439ms (Views: 433.9ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:30:16 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3vLKek503ryTtMbi3vKx4h5RALEUsfFwEp+62tw6jlZxBpWwNqFffw2EMhCH+vLaot4MdYGjLTY5ajIA5YRaOA==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:30:16 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.7ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 608ms (Views: 604.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:30:23 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.4ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 423ms (Views: 419.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:30:52 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (0.8ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (1.2ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.9ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (22.2ms)
+  Rendered procandecos/edit.html.erb within layouts/application (36.6ms)
+Completed 200 OK in 696ms (Views: 691.2ms | ActiveRecord: 2.9ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:30:58 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kXp2AzrmgRExidAQU1zJRlg4mUyd9DZrD9vpEpdJp1k+jinJQjMA0q+5JOIKVIp+5LeViAjm6i0kLmHIrvdzNw==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mProcandeco Load (0.9ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 9ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:30:58 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProcandeco Load (1.0ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 556ms (Views: 551.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:31:06 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 593ms (Views: 588.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 01:31:07 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:31:09 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (1.1ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 634ms (Views: 627.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/procandecos/1/edit" for 127.0.0.1 at 2015-05-14 01:31:11 +0530
+Processing by ProcandecosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProcandeco Load (0.5ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (1.0ms)[0m  SELECT "idea_statuses".* FROM "idea_statuses"
+  [1m[36mImpOwner Load (0.8ms)[0m  [1mSELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)[0m
+  Rendered procandecos/_form.html.erb (22.4ms)
+  Rendered procandecos/edit.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 676ms (Views: 672.1ms | ActiveRecord: 2.4ms)
+
+
+Started PATCH "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:31:15 +0530
+Processing by ProcandecosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NRIFmcFLK7Op7/EIn1i78rdO7Zr7miOWUxeK8oOuXaia5lpTuZ6qcDffBfrGUPjKC8HhXm6I/9B44gIouhCJxg==", "procandeco"=>{"Name"=>"Test Idea3", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary ", "Action"=>"Get it reviewed", "Status_id"=>"4", "ImpOwner_id"=>"4"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[35mProcandeco Load (0.3ms)[0m  SELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/procandecos/1
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/procandecos/1" for 127.0.0.1 at 2015-05-14 01:31:15 +0530
+Processing by ProcandecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT  "procandecos".* FROM "procandecos" WHERE "procandecos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.7ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered procandecos/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 454ms (Views: 450.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 01:31:20 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (0.9ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 680ms (Views: 675.2ms | ActiveRecord: 3.6ms)
