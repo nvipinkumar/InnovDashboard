@@ -1,18 +1,18 @@
 <%= form_for @procandeco, :html => { :class => 'form-horizontal' } do |f| %>
   <div class="form-group">
-    <%= f.label "Idea Name", :class => 'control-label' %>
+    <%= f.label "Idea Name*", :class => 'control-label' %>
     <%= f.text_field :Name, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label "Idea Summary", :class => 'control-label' %>
+    <%= f.label "Idea Summary*", :class => 'control-label' %>
     <%= f.text_field :Summary, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label "Idea Description", :class => 'control-label' %>
+    <%= f.label "Idea Description*", :class => 'control-label' %>
     <%= f.text_area :Description, :class => 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label "Idea Owner(s)", :class => 'control-label' %>
+    <%= f.label "Idea Owner(s)*", :class => 'control-label' %>
     <%= f.text_area :Owner, :class => 'form-control' %>
   </div>
   <div class="form-group">

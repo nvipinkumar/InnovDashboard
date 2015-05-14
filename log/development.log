@@ -24477,3 +24477,363 @@ Processing by ProcandecosController#index as HTML
   [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
   Rendered procandecos/index.html.erb within layouts/application (39.3ms)
 Completed 200 OK in 680ms (Views: 675.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-14 01:41:21 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KnowandculsController#index as HTML
+  [1m[35mKnowandcul Load (0.5ms)[0m  SELECT "knowandculs".* FROM "knowandculs"
+  [1m[36mIdeaStatus Load (0.6ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (133.3ms)
+Completed 200 OK in 1154ms (Views: 1115.7ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/knowandculs/new" for 127.0.0.1 at 2015-05-14 01:41:27 +0530
+Processing by KnowandculsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:8)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:13)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:17)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:21)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:25)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:35)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:40)
+  [1m[36mIdeaStatus Load (1.0ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344365046660 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:42)
+  [1m[35mImpOwner Load (1.0ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (1, 2, 3)
+  Rendered knowandculs/_form.html.erb (156.9ms)
+  Rendered knowandculs/new.html.erb within layouts/application (175.1ms)
+Completed 200 OK in 806ms (Views: 802.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/knowandculs/new" for 127.0.0.1 at 2015-05-14 01:42:44 +0530
+Processing by KnowandculsController#new as HTML
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:8)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:13)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:17)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:21)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:25)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:35)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:40)
+  [1m[36mIdeaStatus Load (1.0ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:42)
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (1, 2, 3)
+  Rendered knowandculs/_form.html.erb (27.5ms)
+  Rendered knowandculs/new.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 675ms (Views: 669.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 01:42:44 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 01:42:44 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 01:42:45 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 01:42:45 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 01:42:45 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 01:42:45 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 01:42:45 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 01:42:45 +0530
+
+
+Started POST "/knowandculs" for 127.0.0.1 at 2015-05-14 01:42:58 +0530
+Processing by KnowandculsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M4HXSg1q2ctkm4KWtUAPSM0O2ODBV23BIFCfXWxws5CcdYiAdb9YCPqrdmTsSExwcYHUJFRFsYcLpReHVc5n/g==", "knowandcul"=>{"Name"=>"", "Summary"=>"", "Description"=>"", "Owner"=>"", "Reviewed"=>"", "Comments"=>"", "Action"=>"", "Status_id"=>"1", "ImpOwner_id"=>"1"}, "commit"=>"Create Idea"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:8)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:13)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:17)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:21)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:25)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:35)
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:40)
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+DEPRECATION WARNING: `#column_for_attribute` will return a null object for non-existent columns in Rails 5. Use `#has_attribute?` if you need to check for an attribute's existence. (called from block in _app_views_knowandculs__form_html_erb__735240485219950602_70344372522600 at /media/vips/Learn/Ruby/Rails_Projects/InnovDashboard/app/views/knowandculs/_form.html.erb:42)
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (1, 2, 3)
+  Rendered knowandculs/_form.html.erb (23.9ms)
+  Rendered knowandculs/new.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 681ms (Views: 669.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-14 08:46:24 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by KnowandculsController#index as HTML
+  [1m[35mKnowandcul Load (1.0ms)[0m  SELECT "knowandculs".* FROM "knowandculs"
+  [1m[36mIdeaStatus Load (2.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (245.0ms)
+Completed 200 OK in 1584ms (Views: 1539.7ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 08:46:26 +0530
+
+
+Started GET "/knowandculs/new" for 127.0.0.1 at 2015-05-14 08:46:29 +0530
+Processing by KnowandculsController#new as HTML
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (1, 2, 3)
+  Rendered knowandculs/_form.html.erb (65.9ms)
+  Rendered knowandculs/new.html.erb within layouts/application (141.8ms)
+Completed 200 OK in 619ms (Views: 615.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-14 08:47:33 +0530
+Processing by KnowandculsController#index as HTML
+  [1m[36mKnowandcul Load (0.4ms)[0m  [1mSELECT "knowandculs".* FROM "knowandculs"[0m
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.2ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 540ms (Views: 537.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 08:48:28 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[35mProcandeco Load (1.1ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (145.4ms)
+Completed 200 OK in 602ms (Views: 589.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/procandecos/new" for 127.0.0.1 at 2015-05-14 08:48:30 +0530
+Processing by ProcandecosController#new as HTML
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (151.0ms)
+  Rendered procandecos/new.html.erb within layouts/application (156.1ms)
+Completed 200 OK in 551ms (Views: 548.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/procandecos/new" for 127.0.0.1 at 2015-05-14 08:48:48 +0530
+Processing by ProcandecosController#new as HTML
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (12.1ms)
+  Rendered procandecos/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 542ms (Views: 539.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 08:48:49 +0530
+
+
+Started GET "/procandecos/new" for 127.0.0.1 at 2015-05-14 08:49:11 +0530
+Processing by ProcandecosController#new as HTML
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.8ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (4, 5, 6, 7)
+  Rendered procandecos/_form.html.erb (18.6ms)
+  Rendered procandecos/new.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 547ms (Views: 542.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-14 08:49:12 +0530
+
+
+Started GET "/procandecos" for 127.0.0.1 at 2015-05-14 08:49:15 +0530
+Processing by ProcandecosController#index as HTML
+  [1m[36mProcandeco Load (0.6ms)[0m  [1mSELECT "procandecos".* FROM "procandecos"[0m
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered procandecos/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 532ms (Views: 528.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-14 08:49:59 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (0.9ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.2ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (153.2ms)
+Completed 200 OK in 561ms (Views: 546.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/techandsols/new" for 127.0.0.1 at 2015-05-14 08:50:02 +0530
+Processing by TechandsolsController#new as HTML
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (8, 9, 10, 11, 12, 13, 14)
+  Rendered techandsols/_form.html.erb (17.2ms)
+  Rendered techandsols/new.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 515ms (Views: 512.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-14 08:50:06 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[36mTechandsol Load (1.3ms)[0m  [1mSELECT "techandsols".* FROM "techandsols"[0m
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.3ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (55.2ms)
+Completed 200 OK in 554ms (Views: 549.5ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/techandsols/new" for 127.0.0.1 at 2015-05-14 08:50:10 +0530
+Processing by TechandsolsController#new as HTML
+  [1m[35mIdeaStatus Load (0.6ms)[0m  SELECT "idea_statuses".* FROM "idea_statuses"
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (8, 9, 10, 11, 12, 13, 14)[0m
+  Rendered techandsols/_form.html.erb (14.9ms)
+  Rendered techandsols/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 552ms (Views: 548.6ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/techandsols" for 127.0.0.1 at 2015-05-14 08:50:52 +0530
+Processing by TechandsolsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1ccwzF5FdavPLvkb8FZHfvER5NGvg+aYst+h2pxwO0l6M28GJpD0aFEeDempXgRGTZ7oFTqROt6ZKikApc7vJw==", "techandsol"=>{"Name"=>"Success Check", "Summary"=>"Checking if idea creation is successful", "Description"=>"checks if ideas can be created without mandatory fields", "Owner"=>"Vipin", "Reviewed"=>"", "Comments"=>"", "Action"=>"", "Status_id"=>"2", "ImpOwner_id"=>"10"}, "commit"=>"Create Idea"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "techandsols" ("Name", "Summary", "Description", "Owner", "Reviewed", "Status_id", "Comments", "Action", "ImpOwner_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["Name", "Success Check"], ["Summary", "Checking if idea creation is successful"], ["Description", "checks if ideas can be created without mandatory fields"], ["Owner", "Vipin"], ["Reviewed", ""], ["Status_id", 2], ["Comments", ""], ["Action", ""], ["ImpOwner_id", 10], ["created_at", "2015-05-14 03:20:52.096892"], ["updated_at", "2015-05-14 03:20:52.096892"]]
+  [1m[35m (277.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/techandsols/8
+Completed 302 Found in 284ms (ActiveRecord: 278.1ms)
+
+
+Started GET "/techandsols/8" for 127.0.0.1 at 2015-05-14 08:50:52 +0530
+Processing by TechandsolsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTechandsol Load (1.3ms)[0m  [1mSELECT  "techandsols".* FROM "techandsols" WHERE "techandsols"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mImpOwner Load (0.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered techandsols/show.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 443ms (Views: 438.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/techandsols" for 127.0.0.1 at 2015-05-14 08:51:26 +0530
+Processing by TechandsolsController#index as HTML
+  [1m[35mTechandsol Load (1.2ms)[0m  SELECT "techandsols".* FROM "techandsols"
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.2ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered techandsols/index.html.erb within layouts/application (65.5ms)
+Completed 200 OK in 591ms (Views: 583.6ms | ActiveRecord: 4.5ms)

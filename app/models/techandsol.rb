@@ -1,7 +1,7 @@
 class Techandsol < ActiveRecord::Base
 	has_many :IdeaStatus
 	has_many :ImpOwner
-	validates :Name, :Summary, :Description, :Owner, :Reviewed, :Comments, :Action, :presence => true
+	validates :Name, :Summary, :Description, :Owner, :presence => true
 
 
   def GetStatus
