@@ -1,38 +1,47 @@
 <%- model_class = Knowandcul -%>
-<div class="page-header">
-  <!-- <h1><%=t '.title', :default => model_class.model_name.human %></h1> -->
-  <h1 align="center"><%= 'Knowledge and Culture' %></h1>
+<div class="col-md-8">
+  <div class="page-header">
+    <!-- <h1><%=t '.title', :default => model_class.model_name.human %></h1> -->
+    <h1 align="center"><%= 'Knowledge and Culture' %></h1>
+  </div>
+
+  <dl class="dl-horizontal">
+    <dt><strong><%= model_class.human_attribute_name(:Name) %>:</strong></dt>
+    <dd><%= @knowandcul.Name %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:Summary) %>:</strong></dt>
+    <dd><%= auto_link(@knowandcul.Summary) %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:Description) %>:</strong></dt>
+    <dd><%= auto_link(@knowandcul.Description) %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
+    <dd><%= @knowandcul.Owner %></dd>
+    <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
+    <dd><%= @knowandcul.Reviewed %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
+    <dd><%= @knowandcul.GetStatus %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
+    <dd><%= auto_link(@knowandcul.Comments) %></dd>
+    <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
+    <dd><%= @knowandcul.Action %></dd>
+    <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
+    <dd><%= @knowandcul.GetOwner %></dd>
+  </dl>
+
+  <div class="form-actions">
+    <%= link_to t('.back', :default => t("helpers.links.back")),
+                knowandculs_path, :class => 'btn btn-default'  %>
+    <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                edit_knowandcul_path(@knowandcul), :class => 'btn btn-primary' %>
+    <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                knowandcul_path(@knowandcul),
+                :method => 'delete',
+                :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                :class => 'btn btn-danger' %>
+  </div>
 </div>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:Name) %>:</strong></dt>
-  <dd><%= @knowandcul.Name %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Summary) %>:</strong></dt>
-  <dd><%= auto_link(@knowandcul.Summary) %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Description) %>:</strong></dt>
-  <dd><%= auto_link(@knowandcul.Description) %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Owner) %>:</strong></dt>
-  <dd><%= @knowandcul.Owner %></dd>
-  <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
-  <dd><%= @knowandcul.Reviewed %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
-  <dd><%= @knowandcul.GetStatus %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
-  <dd><%= auto_link(@knowandcul.Comments) %></dd>
-  <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
-  <dd><%= @knowandcul.Action %></dd>
-  <dt><strong><%= model_class.human_attribute_name("Imperative Owner") %>:</strong></dt>
-  <dd><%= @knowandcul.GetOwner %></dd>
-</dl>
-
-<div class="form-actions">
-  <%= link_to t('.back', :default => t("helpers.links.back")),
-              knowandculs_path, :class => 'btn btn-default'  %>
-  <%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_knowandcul_path(@knowandcul), :class => 'btn btn-primary' %>
-  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              knowandcul_path(@knowandcul),
-              :method => 'delete',
-              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-danger' %>
+<div class="col-md-4"></br ></br ></br >
+  <%= high_chart("my_id5", @chart5) do |c| %>
+      <%= raw "options.tooltip.formatter = function() {return '<b> YUPI!! '+ this.point.name +'</b>: '+ this.y +' %';}"  %>
+      <%= raw "options.plotOptions.pie.dataLabels.formatter = function() { if (this.y > 5) return this.point.name; }"  %>
+  <% end %>
 </div>

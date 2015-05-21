@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+gem 'lazy_high_charts'
 gem 'less-rails'
 gem 'twitter-bootswatch-rails'
 gem 'twitter-bootswatch-rails-helpers'
