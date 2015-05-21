@@ -16,8 +16,8 @@
     <dd><%= @knowandcul.Owner %></dd>
     <dt><strong><%= model_class.human_attribute_name("Reviewed by") %>:</strong></dt>
     <dd><%= @knowandcul.Reviewed %></dd>
-    <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
-    <dd><%= @knowandcul.GetStatus %></dd>
+    <!-- <dt><strong><%= model_class.human_attribute_name(:Status_id) %>:</strong></dt>
+    <dd><%= @knowandcul.GetStatus %></dd> -->
     <dt><strong><%= model_class.human_attribute_name(:Comments) %>:</strong></dt>
     <dd><%= auto_link(@knowandcul.Comments) %></dd>
     <dt><strong><%= model_class.human_attribute_name("Action Item") %>:</strong></dt>
@@ -39,9 +39,6 @@
   </div>
 </div>
 
-<div class="col-md-4"></br ></br ></br >
-  <%= high_chart("my_id5", @chart5) do |c| %>
-      <%= raw "options.tooltip.formatter = function() {return '<b> YUPI!! '+ this.point.name +'</b>: '+ this.y +' %';}"  %>
-      <%= raw "options.plotOptions.pie.dataLabels.formatter = function() { if (this.y > 5) return this.point.name; }"  %>
-  <% end %>
+<div class="col-md-4" span=90></br ></br >
+  <%= high_chart("my_id5", @chart5) %>
 </div>

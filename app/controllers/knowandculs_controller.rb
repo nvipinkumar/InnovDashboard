@@ -12,29 +12,63 @@ class KnowandculsController < ApplicationController
   def show
 
     @chart5 = LazyHighCharts::HighChart.new('pie') do |f|
-        f.chart({:defaultSeriesType=>"pie" , :margin=> [50, 120, 60, 170]} )
-        series = {
-                 :type=> 'pie',
-                 :name=> 'Browser share',
-                 :data=> [
-                    ['Firefox',   45.0],
-                    ['IE',       26.8],
-                    {
-                       :name=> 'Chrome',    
-                       :y=> 12.8,
-                       :sliced=> true,
-                       :selected=> true
-                    },
-                    ['Safari',    8.5],
-                    ['Opera',     6.2],
-                    ['Others',   0.7]
-                 ]
-        }
+        f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [0, 0, 0, 0]} )
+         f.title({
+            align: 'center',
+            verticalAlign: 'middle'
+        })
+         f.tooltip({ enabled: false }) 
+          series = {
+                     :type=> 'pie',
+                     :data=> [
+                        {
+                           :name=> 'Submitted',    
+                           :y=> 16.66,
+                           :sliced=> @knowandcul.Status_id == 1 ? true : false,
+                           :selected=> true
+                        },
+                        
+                        {
+                           :name=> 'In Review',    
+                           :y=> 16.66,
+                           :sliced=> @knowandcul.Status_id == 2 ? true : false,
+                           :selected=> true
+                        },
+
+                        {
+                           :name=> 'Approved',    
+                           :y=> 16.66,
+                           :sliced=> @knowandcul.Status_id == 3 ? true : false,
+                           :selected=> true
+                        },
+
+                        {
+                           :name=> 'Future Development',    
+                           :y=> 16.66,
+                           :sliced=> @knowandcul.Status_id == 4 ? true : false,
+                           :selected=> true
+                        },
+
+                        {
+                           :name=> 'In Progress',    
+                           :y=> 16.66,
+                           :sliced=> @knowandcul.Status_id == 6 ? true : false,
+                           :selected=> true
+                        },
+
+                        {
+                           :name=> 'Completed',    
+                           :y=> 16.66,
+                           :sliced=> @knowandcul.Status_id == 7 ? true : false,
+                           :selected=> true
+                        }
+                     ]
+            }
         f.series(series)
-        f.options[:title][:text] = "THA PIE"
+        f.options[:title][:text] = @knowandcul.GetStatus
         f.legend(:layout=> 'vertical',:style=> {:left=> 'auto', :bottom=> 'auto',:right=> '50px',:top=> '100px'}) 
         f.plot_options(:pie=>{
-          :innerSize=>'70%',
+          :innerSize=>'50%',
           :allowPointSelect=>true, 
           :cursor=>"pointer" , 
           :dataLabels=>{
