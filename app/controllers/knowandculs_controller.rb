@@ -11,6 +11,8 @@ class KnowandculsController < ApplicationController
   # GET /knowandculs/1.json
   def show
 
+    @Status = @knowandcul.Status_id
+
     @chart5 = LazyHighCharts::HighChart.new('pie') do |f|
         f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [0, 0, 0, 0]} )
          f.title({
@@ -24,42 +26,42 @@ class KnowandculsController < ApplicationController
                         {
                            :name=> 'Submitted',    
                            :y=> 16.66,
-                           :sliced=> @knowandcul.Status_id == 1 ? true : false,
+                           :sliced=> @Status == 1 ? true : false,
                            :selected=> true
                         },
                         
                         {
                            :name=> 'In Review',    
                            :y=> 16.66,
-                           :sliced=> @knowandcul.Status_id == 2 ? true : false,
+                           :sliced=> @Status == 2 ? true : false,
                            :selected=> true
                         },
 
                         {
                            :name=> 'Approved',    
                            :y=> 16.66,
-                           :sliced=> @knowandcul.Status_id == 3 ? true : false,
+                           :sliced=> @Status == 3 ? true : false,
                            :selected=> true
                         },
 
                         {
                            :name=> 'Future Development',    
                            :y=> 16.66,
-                           :sliced=> @knowandcul.Status_id == 4 ? true : false,
+                           :sliced=> @Status == 4 ? true : false,
                            :selected=> true
                         },
 
                         {
                            :name=> 'In Progress',    
                            :y=> 16.66,
-                           :sliced=> @knowandcul.Status_id == 6 ? true : false,
+                           :sliced=> @Status == 6 ? true : false,
                            :selected=> true
                         },
 
                         {
                            :name=> 'Completed',    
                            :y=> 16.66,
-                           :sliced=> @knowandcul.Status_id == 7 ? true : false,
+                           :sliced=> @Status == 7 ? true : false,
                            :selected=> true
                         }
                      ]
@@ -81,7 +83,7 @@ class KnowandculsController < ApplicationController
         })
     end
 
-    if @knowandcul.Status_id == 5
+    if @Status == 5
         @chart5 = LazyHighCharts::HighChart.new('pie') do |f|
           f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [60, 60, 60, 60]} )
            f.title({
