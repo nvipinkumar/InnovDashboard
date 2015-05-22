@@ -83,7 +83,7 @@ class KnowandculsController < ApplicationController
 
     if @knowandcul.Status_id == 5
         @chart5 = LazyHighCharts::HighChart.new('pie') do |f|
-          f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [0, 0, 0, 0]} )
+          f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [60, 60, 60, 60]} )
            f.title({
               align: 'center',
               verticalAlign: 'middle'
