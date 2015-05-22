@@ -68,7 +68,7 @@ class KnowandculsController < ApplicationController
         f.options[:title][:text] = @knowandcul.GetStatus
         f.legend(:layout=> 'vertical',:style=> {:left=> 'auto', :bottom=> 'auto',:right=> '50px',:top=> '100px'}) 
         f.plot_options(:pie=>{
-          :innerSize=>'50%',
+          :innerSize=>'40%',
           :allowPointSelect=>true, 
           :cursor=>"pointer" , 
           :dataLabels=>{
