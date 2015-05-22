@@ -30193,3 +30193,1224 @@ Processing by TechandsolsController#index as HTML
   [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 14]]
   Rendered techandsols/index.html.erb within layouts/application (80.1ms)
 Completed 200 OK in 787ms (Views: 780.1ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-22 20:10:10 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 33ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/techandsols/1" for 127.0.0.1 at 2015-05-22 20:14:50 +0530
+Processing by TechandsolsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTechandsol Load (1.1ms)[0m  SELECT  "techandsols".* FROM "techandsols" WHERE "techandsols"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered techandsols/show.html.erb within layouts/application (77.1ms)
+Completed 200 OK in 1377ms (Views: 1286.8ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-22 20:15:10 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:25: syntax error, unexpected =>, expecting keyword_end
+                     :data=> [
+                            ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:68: syntax error, unexpected '\n', expecting =>):
+  app/controllers/knowandculs_controller.rb:25: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/knowandculs_controller.rb:68: syntax error, unexpected '\n', expecting =>
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.0ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-22 20:15:10 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:25: syntax error, unexpected =>, expecting keyword_end
+                     :data=> [
+                            ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:68: syntax error, unexpected '\n', expecting =>):
+  app/controllers/knowandculs_controller.rb:25: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/knowandculs_controller.rb:68: syntax error, unexpected '\n', expecting =>
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (68.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started GET "/knowandculs" for 127.0.0.1 at 2015-05-22 20:15:40 +0530
+Processing by KnowandculsController#index as HTML
+  [1m[35mKnowandcul Load (0.7ms)[0m  SELECT "knowandculs".* FROM "knowandculs"
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered knowandculs/index.html.erb within layouts/application (59.6ms)
+Completed 200 OK in 716ms (Views: 697.3ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:15:41 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:15:41 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:41 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:15:42 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:15:45 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (1.3ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 743ms (Views: 734.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:18:28 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:30: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:37: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:44: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:51: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:58: syntax error, unexpected ',', expecting keyword_end):
+  app/controllers/knowandculs_controller.rb:30: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/knowandculs_controller.rb:37: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/knowandculs_controller.rb:44: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/knowandculs_controller.rb:51: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/knowandculs_controller.rb:58: syntax error, unexpected ',', expecting keyword_end
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.0ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:19:00 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.5ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 715ms (Views: 665.7ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:19:01 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:23:43 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+                     if @knowandcul.Status_id==5 then
+                       ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+                     :data=> [
+                            ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+  app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.4ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:24:02 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+                     if @knowandcul.Status_id==5 
+                       ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+                     :data=> [
+                            ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+  app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:24:05 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+                     if @knowandcul.Status_id==5 
+                       ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+                     :data=> [
+                            ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+  app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.0ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (118.5ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:24:07 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+                     if @knowandcul.Status_id==5 
+                       ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+                     :data=> [
+                            ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/knowandculs_controller.rb:30: syntax error, unexpected keyword_if, expecting '}'
+  app/controllers/knowandculs_controller.rb:31: syntax error, unexpected =>, expecting keyword_end
+  app/controllers/knowandculs_controller.rb:75: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.2ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:24:57 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (1.1ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.9ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 800ms (Views: 677.9ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:24:58 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:24:58 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:24:58 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:24:59 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:25:43 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.6ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.6ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 783ms (Views: 731.9ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:44 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:45 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:45 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:25:45 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:26:57 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.7ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.9ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 727ms (Views: 676.1ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:26:58 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:27:10 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.5ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.7ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 705ms (Views: 585.1ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:11 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:27:21 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.8ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.6ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mImpOwner Load (0.7ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 690ms (Views: 638.1ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:22 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:22 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:22 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:22 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:27:22 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:23 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:23 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:23 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:23 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:23 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:27:23 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:28:15 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.5ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.9ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (60.3ms)
+Completed 500 Internal Server Error in 113ms
+
+ActionView::Template::Error (undefined method `html_options' for nil:NilClass):
+    40: </div>
+    41: 
+    42: <div class="col-md-4" span=90></br ></br >
+    43:   <%= high_chart("my_id5", @chart5) %>
+    44: </div>
+  app/views/knowandculs/show.html.erb:43:in `_app_views_knowandculs_show_html_erb___1057583711919972442_70283326654940'
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.0ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:29:24 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.9ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.8ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.4ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 784ms (Views: 733.6ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:29:25 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:34:24 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.5ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 774ms (Views: 728.5ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:34:25 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:34:25 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:34:25 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:34:26 +0530
+
+
+Started GET "/knowandculs/1/edit" for 127.0.0.1 at 2015-05-22 20:34:30 +0530
+Processing by KnowandculsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (1.0ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.5ms)[0m  [1mSELECT "idea_statuses".* FROM "idea_statuses"[0m
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" IN (1, 2, 3)
+  Rendered knowandculs/_form.html.erb (28.8ms)
+  Rendered knowandculs/edit.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 716ms (Views: 709.8ms | ActiveRecord: 2.0ms)
+
+
+Started PATCH "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:34:36 +0530
+Processing by KnowandculsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IqPt59MXaGVV+tB7uhwS46MDmvOAvLcU6/ivzd4x42ONV7Itq8LppsvKJInjFFHbH4yWNxWua1LADScX5483DQ==", "knowandcul"=>{"Name"=>"Test Idea", "Summary"=>"This is a summary This is a summary This is a summary ", "Description"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\t\tThis is a summary This is a summary This is a summary This is a summary ", "Owner"=>"Vipin", "Reviewed"=>"Pratik", "Comments"=>"This is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary This is a summary This is a summary This is a summary \r\n                    \t\t\t\tThis is a summary http://www.facebook.com", "Action"=>"Get it reviewed", "Status_id"=>"5", "ImpOwner_id"=>"1"}, "commit"=>"Update Idea", "id"=>"1"}
+  [1m[36mKnowandcul Load (0.3ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "knowandculs" SET "Status_id" = ?, "updated_at" = ? WHERE "knowandculs"."id" = ?[0m  [["Status_id", 5], ["updated_at", "2015-05-22 15:04:36.203857"], ["id", 1]]
+  [1m[35m (254.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/knowandculs/1
+Completed 302 Found in 264ms (ActiveRecord: 255.4ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:34:36 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.6ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (0.7ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 627ms (Views: 620.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:35:20 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.6ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.7ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 741ms (Views: 688.1ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:21 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:35:41 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.5ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (1.2ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 769ms (Views: 711.8ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:42 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:42 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:42 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:42 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:35:42 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:43 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:43 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:43 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:43 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:43 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:35:43 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.6ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 529ms (Views: 498.4ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:00 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:36:11 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.9ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 755ms (Views: 643.1ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:11 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:12 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:36:22 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.3ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 685ms (Views: 645.5ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:36:23 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:37:01 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.6ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.5ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (1.0ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 758ms (Views: 632.4ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:37:02 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:37:59 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.4ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.4ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mImpOwner Load (0.5ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 784ms (Views: 743.1ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:38:00 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:39:38 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.9ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.4ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 689ms (Views: 625.7ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:39 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:39 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:40 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:39:56 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.6ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mImpOwner Load (0.3ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 740ms (Views: 708.6ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:39:57 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:40:49 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.5ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.7ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (0.5ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 634ms (Views: 590.7ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:40:50 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:40:50 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:40:50 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:40:51 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:44:24 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mKnowandcul Load (0.9ms)[0m  SELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mIdeaStatus Load (0.3ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mImpOwner Load (0.4ms)[0m  SELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 830ms (Views: 777.8ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:25 +0530
+
+
+Started GET "/knowandculs/1" for 127.0.0.1 at 2015-05-22 20:44:41 +0530
+Processing by KnowandculsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mKnowandcul Load (0.7ms)[0m  [1mSELECT  "knowandculs".* FROM "knowandculs" WHERE "knowandculs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mIdeaStatus Load (0.3ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "idea_statuses".* FROM "idea_statuses" WHERE "idea_statuses"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mImpOwner Load (0.6ms)[0m  [1mSELECT  "imp_owners".* FROM "imp_owners" WHERE "imp_owners"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered knowandculs/show.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 584ms (Views: 530.5ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-22 20:44:42 +0530

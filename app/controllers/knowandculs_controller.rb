@@ -81,6 +81,44 @@ class KnowandculsController < ApplicationController
         })
     end
 
+    if @knowandcul.Status_id == 5
+        @chart5 = LazyHighCharts::HighChart.new('pie') do |f|
+          f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [0, 0, 0, 0]} )
+           f.title({
+              align: 'center',
+              verticalAlign: 'middle'
+          })
+           f.tooltip({ enabled: false }) 
+            series = {
+                       :type=> 'pie',
+                       :dataLabels=>false,
+                       :data=> [
+                          {
+                             :name=> 'Cancelled',
+                             :color=>"#D9230F",    
+                             :y=> 100,
+                             :selected=> true
+                          }
+                       ]
+              }
+          f.series(series)
+          f.options[:title][:text] = @knowandcul.GetStatus
+          f.legend(:layout=> 'vertical',:style=> {:left=> 'auto', :bottom=> 'auto',:right=> '50px',:top=> '100px'}) 
+          f.plot_options(:pie=>{
+            :innerSize=>'80%',
+            :allowPointSelect=>true, 
+            :cursor=>"pointer" , 
+            :dataLabels=>{
+              :enabled=>true,
+              :color=>"black",
+              :style=>{
+                :font=>"13px Trebuchet MS, Verdana, sans-serif"
+              }
+            }
+          })
+      end
+    end
+
   end
 
   # GET /knowandculs/new
