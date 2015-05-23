@@ -3,12 +3,22 @@
   <!-- <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1> -->
   <h1 align="center"><%= 'Process and Ecosystem' %></h1></br >
 
-<!-- <h4><span style="padding-left:80%"><%= 'Process and Ecosystem' %></span></h4> -->
+<div class="container">  
+  <div class="row">        
+    <div class="col-md-12">
+      <!-- insert your chart here-->
+      <%= high_chart("my_id6", @chart6) %>
+    </div>
+  </div>
+</div>
+
+</br></br>
 <div class="container">
   <div class="row">
     <div class="col-md-10">
       <h4><b><%= 'Shift left ecosystem:' %></b><i><%= ' Deepak(VC++), Rahul(C#), Santosh (MPages,Java)'%></i></h4>
     </div>
+    
     <div class="col-md-2">
       <h4><%= link_to "Create an Idea",
             new_procandeco_path %></span></h4>

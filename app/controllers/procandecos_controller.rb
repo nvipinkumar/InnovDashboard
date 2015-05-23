@@ -5,6 +5,56 @@ class ProcandecosController < ApplicationController
   # GET /procandecos.json
   def index
     @procandecos = Procandeco.all
+
+    #draw the bar graph here
+    @Submitted  = 0
+    @Reviewed   = 0
+    @Cancelled  = 0
+    @InProgress = 0
+    @Approved   = 0
+    @Completed  = 0
+    @FutDev     = 0
+
+    @procandecos.each do |procandeco|
+      
+      if procandeco.Status_id == 1
+        @Submitted = @Submitted + 1
+      elsif procandeco.Status_id == 2
+        @Reviewed = @Reviewed + 1
+      elsif procandeco.Status_id == 3
+        @Approved = @Approved + 1
+      elsif procandeco.Status_id == 4
+        @FutDev = @FutDev + 1
+      elsif procandeco.Status_id == 5
+        @Cancelled = @Cancelled + 1
+      elsif procandeco.Status_id == 6
+        @InProgress = @InProgress + 1
+      elsif procandeco.Status_id == 7
+        @Completed = @Completed + 1
+      end
+
+    end
+
+    @chart6 = LazyHighCharts::HighChart.new('column') do |f|
+       f.chart({:backgroundColor=>"#FCFCFC", :borderColor=>'#CCC',:borderWidth=>2} )
+       f.series(:name=>'Ideas',:data=> [@Submitted, @Reviewed, @Approved, @FutDev, @Cancelled, @InProgress, @Completed])
+       f.title({ :text=>"Ideas Summary View"})
+       f.legend({:align => 'right', 
+                :x => -100, 
+                :verticalAlign=>'top',
+                :y=>20,
+                :floating=>"true",
+                :backgroundColor=>'#FCFCFC',
+                :borderColor=>'#CCC',
+                :borderWidth=>1,
+                :shadow=>"false"
+                })
+       f.options[:chart][:defaultSeriesType] = "column"
+       f.options[:xAxis] = {:plot_bands => "none", :title=>{:text=>"Idea Status"}, :categories => ["Submitted", "In Review", "Approved", 
+        "Future Development", "Cancelled", "In Progress", "Completed"]}
+       f.options[:yAxis][:title] = {:text=>"No. of Ideas"}
+    end
+
   end
 
   # GET /procandecos/1
