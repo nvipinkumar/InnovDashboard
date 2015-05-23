@@ -38,7 +38,7 @@ class TechandsolsController < ApplicationController
     @chart6 = LazyHighCharts::HighChart.new('column') do |f|
        f.chart({:backgroundColor=>"#FCFCFC", :borderColor=>'#CCC',:borderWidth=>2} )
        f.series(:name=>'Ideas',:data=> [@Submitted, @Reviewed, @Approved, @FutDev, @Cancelled, @InProgress, @Completed])
-       f.title({ :text=>"Ideas Summary View"})
+       f.title({ :text=>"Summary View"})
        f.legend({:align => 'right', 
                 :x => -100, 
                 :verticalAlign=>'top',
@@ -54,7 +54,7 @@ class TechandsolsController < ApplicationController
         "Future Development", "Cancelled", "In Progress", "Completed"]}
        f.options[:yAxis][:title] = {:text=>"No. of Ideas"}
     end
-    
+
   end
 
   # GET /techandsols/1
