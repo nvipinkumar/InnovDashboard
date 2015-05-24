@@ -12,7 +12,7 @@ class WelcomeController < ApplicationController
     @TechIdeas  = @techandsols.count
 
     @chart6 = LazyHighCharts::HighChart.new('pie') do |f|
-      f.chart({:backgroundColor=>"#FCFCFC", :defaultSeriesType=>"pie" , :margin=> [0, 0, 0, 0]} )
+      f.chart({:backgroundColor=>"#FFFFFF", :defaultSeriesType=>"pie" , :margin=> [0, 0, 0, 0]} )
       series = {
                :type=> 'pie',
                :name=> 'No. of Ideas',
