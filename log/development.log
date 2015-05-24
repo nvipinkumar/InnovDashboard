@@ -42453,3 +42453,298 @@ Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed490
 
 
 Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 09:53:18 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:09:37 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 1130ms (Views: 1068.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:09:39 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:10:25 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 675ms (Views: 671.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:26 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 521ms (Views: 516.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:41 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:10:52 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 631ms (Views: 621.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:10:53 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:11:08 +0530
+Processing by WelcomeController#index as HTML
+  [1m[35m (1.2ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 650ms (Views: 640.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:09 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:11:35 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  Rendered welcome/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 730ms (Views: 720.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:11:36 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-24 10:13:06 +0530
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 623ms (Views: 619.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-24 10:13:07 +0530
