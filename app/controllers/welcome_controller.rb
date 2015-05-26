@@ -37,6 +37,67 @@ class WelcomeController < ApplicationController
         }
       })
     end
+
+
+    @chart7 = LazyHighCharts::HighChart.new('solidgauge') do |f|
+      f.chart({:backgroundColor=>"#FFFFFF", :defaultSeriesType=>"solidgauge" , :margin=> [0, 0, 0, 0]} )
+      f.pane({
+            :center=>['50%', '85%'],
+            :size=>'140%',
+            :startAngle=> -90,
+            :endAngle=> 90,
+            :background=> {
+                :backgroundColor =>"#FFFFFF",
+                :innerRadius=> '60%',
+                :outerRadius=> '100%',
+                :shape=> 'arc'
+            }
+        })
+      f.tooltip({
+            enabled: false
+        })
+      f.yAxis({
+            :min=>0,
+            :max=>200,
+            :title=>{
+                :text=>'Speed'
+            },
+            :stops=> [
+                [0.1, '#55BF3B'], 
+                [0.5, '#DDDF0D'], 
+                [0.9, '#DF5353'] 
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>'null',
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/h'
+            }
+        }
+      f.series(series)
+    end
+
   
   end
 

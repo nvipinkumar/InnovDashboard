@@ -48802,3 +48802,628 @@ Processing by WelcomeController#index as HTML
   [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "techandsols"
   Rendered welcome/index.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 545ms (Views: 540.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:06:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 1158ms (Views: 1090.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 00:06:10 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 00:06:10 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 00:06:10 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:10 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:10 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 00:06:10 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:11 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:11 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:11 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:11 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 00:06:11 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:29:54 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:50: syntax error, unexpected ':', expecting =>
+                :backgroundColor: =>"#FFFFFF",
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:50: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:51: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:52: syntax error, unexpected ',', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:54: syntax error, unexpected '}', expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+                [0.5, '#DDDF0D'], // yellow
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unknown regexp option - h
+unmatched close parenthesis: / red
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>null,
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+      
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unterminated string meets end of file):
+  app/controllers/welcome_controller.rb:50: syntax error, unexpected ':', expecting =>
+  app/controllers/welcome_controller.rb:50: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:51: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:52: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:54: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+  app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unknown regexp option - h
+  app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unterminated string meets end of file
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.6ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (35.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:30:27 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+                [0.5, '#DDDF0D'], // yellow
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unknown regexp option - h
+unmatched close parenthesis: / red
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>null,
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unterminated string meets end of file):
+  app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+  app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unknown regexp option - h
+  app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unterminated string meets end of file
+
+
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:30:32 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+                [0.5, '#DDDF0D'], // yellow
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unknown regexp option - h
+unmatched close parenthesis: / red
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>null,
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unterminated string meets end of file):
+  app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+  app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unknown regexp option - h
+  app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unterminated string meets end of file
+
+
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:30:33 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+                [0.5, '#DDDF0D'], // yellow
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unknown regexp option - h
+unmatched close parenthesis: / red
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>null,
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unterminated string meets end of file):
+  app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+  app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unknown regexp option - h
+  app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unterminated string meets end of file
+
+
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:30:37 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+                [0.5, '#DDDF0D'], // yellow
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unknown regexp option - h
+unmatched close parenthesis: / red
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>null,
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unterminated string meets end of file):
+  app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+  app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unknown regexp option - h
+  app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unterminated string meets end of file
+
+
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:30:38 +0530
+
+SyntaxError (/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+                [0.5, '#DDDF0D'], // yellow
+                                 ^
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unknown regexp option - h
+unmatched close parenthesis: / red
+            ],
+            :lineWidth=>0,
+            :minorTickInterval=>null,
+            :tickPixelInterval=>400,
+            :tickWidth=> 0,
+            :title=>{
+                :y=>-70
+            },
+            :labels=>{
+                :y=>16
+            }
+        })
+      f.plotOptions({
+            :solidgauge=>{
+                :dataLabels=>{
+                    :y=>5,
+                    :borderWidth=>0,
+                    :useHTML=>true
+                }
+            }
+        })
+
+      series = {
+            :name=>'Speed',
+            :data=>[80],
+            :tooltip=>{
+                :valueSuffix=>' km/
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+/media/vips/Learn/Ruby/Rails_Projects/Dashboard/InnovDashboard/app/controllers/welcome_controller.rb:95: unterminated string meets end of file):
+  app/controllers/welcome_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting ']'
+  app/controllers/welcome_controller.rb:67: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unknown regexp option - h
+  app/controllers/welcome_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  app/controllers/welcome_controller.rb:95: unterminated string meets end of file
+
+
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:31:07 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  [1m[35mProcandeco Load (0.6ms)[0m  SELECT "procandecos".* FROM "procandecos"
+  [1m[36mKnowandcul Load (1.0ms)[0m  [1mSELECT "knowandculs".* FROM "knowandculs"[0m
+  [1m[35mTechandsol Load (0.5ms)[0m  SELECT "techandsols".* FROM "techandsols"
+Completed 500 Internal Server Error in 71ms
+
+NameError (undefined local variable or method `null' for #<WelcomeController:0x007faf70a205e0>):
+  app/controllers/welcome_controller.rb:71:in `block in index'
+  app/controllers/welcome_controller.rb:42:in `new'
+  app/controllers/welcome_controller.rb:42:in `index'
+
+
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.7ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/vips/.rvm/gems/ruby-2.0.0-p576/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:31:26 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 619ms (Views: 520.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:26 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:26 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:27 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:31:41 +0530
+Processing by WelcomeController#index as HTML
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 418ms (Views: 408.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 00:31:42 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:33:33 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 506ms (Views: 500.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 00:33:34 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:44:29 +0530
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 604ms (Views: 573.0ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 00:44:30 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 00:54:34 +0530
+Processing by WelcomeController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "procandecos"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "knowandculs"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "techandsols"[0m
+  Rendered welcome/index.html.erb within layouts/application (66.4ms)
+Completed 200 OK in 664ms (Views: 660.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 00:54:35 +0530
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-05-26 08:36:21 +0530
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "procandecos"
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "knowandculs"[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "techandsols"
+  Rendered welcome/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 656ms (Views: 608.3ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/application.self-b3fdf0e0b599d05f44f465c35df1b4aa05fb45f3a1af6cf7ff331d82e4048900.css?body=1" for 127.0.0.1 at 2015-05-26 08:36:21 +0530
+
+
+Started GET "/assets/simplex.self-17645f730fe6e34356fe6292546a81ec28be021ebe81dc931777d987d73e3ae1.css?body=1" for 127.0.0.1 at 2015-05-26 08:36:21 +0530
+
+
+Started GET "/assets/simplex/loader.self-ea01e2d25034c5e1da5db99229b244f356cfc804a7b93b75902e8e5fdbbd734c.css?body=1" for 127.0.0.1 at 2015-05-26 08:36:21 +0530
+
+
+Started GET "/assets/simplex/bootswatch.self-7b6105fc1d654bf9a9a48b5ee1520e340bbc7b39b89982c37cebcb38cfa74ebd.css?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/highcharts/highstock.self-51c8def619dbc147b8f10294fcaad950766b60a2e4678164cf3344485fd08f92.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/highcharts/highcharts.self-e3eadc74289ea4f809a7a096f17a7223093e5ac603ef35aa38c9561585eca295.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/highcharts/highcharts-more.self-6915edcf49b5657c6c1d03ed4903da03a73df015da30b096965db902f2a0d912.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
+
+
+Started GET "/assets/application.self-b870f4765c2fcbf8cabec8478e3e32aa02ac855d9f609c451d170b187ee785a3.js?body=1" for 127.0.0.1 at 2015-05-26 08:36:22 +0530
