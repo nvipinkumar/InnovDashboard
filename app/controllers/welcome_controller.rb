@@ -40,7 +40,7 @@ class WelcomeController < ApplicationController
 
 
     @chart7 = LazyHighCharts::HighChart.new('solidgauge') do |f|
-      f.chart({:backgroundColor=>"#FFFFFF", :defaultSeriesType=>"solidgauge" , :margin=> [0, 0, 0, 0]} )
+      f.chart({:backgroundColor=>"#FFFFFF",  :margin=> [0, 0, 0, 0]} )
       f.pane({
             :center=>['50%', '85%'],
             :size=>'140%',
@@ -90,7 +90,7 @@ class WelcomeController < ApplicationController
 
       series = {
             :name=>'Speed',
-            :data=>[80],
+            :data=>[120],
             :tooltip=>{
                 :valueSuffix=>' km/h'
             }

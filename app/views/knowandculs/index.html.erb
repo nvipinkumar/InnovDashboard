@@ -21,10 +21,10 @@
       <h4><b><%= 'Know your clients:' %></b><i><%= ' Pratik, Javed'%></i></h4>
     </div>
     
-    <div class="col-md-2">
+    <!-- <div class="col-md-2">
       <h4><%= link_to "Create an Idea",
             new_knowandcul_path %></span></h4>
-    </div>  
+    </div> -->  
   </div>
 </div>
 
@@ -44,7 +44,7 @@
     <col class="col-md-1">
     <col class="col-md-2">
     <col class="col-md-1">
-    <col class="col-md-1">    
+    <!-- <col class="col-md-1">     -->
   </colgroup>
   <thead>
     <tr>
@@ -56,7 +56,7 @@
       <th><%= model_class.human_attribute_name("Reviewed by") %></th>
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
-      <th><%= model_class.human_attribute_name("Action Item") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Action Item") %></th> -->
       <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -78,14 +78,14 @@
         <td><%= knowandcul.Action %></td>
         <!-- <td><%= knowandcul.GetOwner %></td> -->
         <!-- <td><%=l knowandcul.created_at %></td> -->
-        <td align="center">
+        <!-- <td align="center">
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_knowandcul_path(knowandcul) %><br>
           <%= link_to t('.destroy', :default => t("Delete")),
                       knowandcul_path(knowandcul),
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
-        </td>        
+        </td> -->        
       </tr>
       <% end %>
     <% end %>
@@ -109,10 +109,10 @@
     <div class="col-md-10">
       <h4><b><%= 'Innovation Meetups' %></b><i><%= ': Amborish, Mahesh, Anitha'%></i></h4>
     </div>
-    <div class="col-md-2">
+    <!-- <div class="col-md-2">
       <h4><%= link_to "Create an Idea",
             new_knowandcul_path %></span></h4>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -132,7 +132,7 @@
     <col class="col-md-1">
     <col class="col-md-2">
     <col class="col-md-1">
-    <col class="col-md-1">    
+    <!-- <col class="col-md-1">     -->
   </colgroup>
   <thead>
     <tr>
@@ -144,7 +144,7 @@
       <th><%= model_class.human_attribute_name("Reviewed by") %></th>
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
-      <th><%= model_class.human_attribute_name("Action Item") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Action Item") %></th>  -->
       <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -166,14 +166,14 @@
         <td><%= knowandcul.Action %></td>
         <!-- <td><%= knowandcul.GetOwner %></td> -->
         <!-- <td><%=l knowandcul.created_at %></td> -->
-        <td align="center">
+        <!-- <td align="center">
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_knowandcul_path(knowandcul) %><br>
           <%= link_to t('.destroy', :default => t("Delete")),
                       knowandcul_path(knowandcul),
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
-        </td>        
+        </td>        -->
       </tr>
       <% end %>
     <% end %>
@@ -193,10 +193,10 @@
     <div class="col-md-10">
       <h4><b><%= 'Experience it' %></b><i><%= ': Pratik, Ram, Chetan'%></i></h4>
     </div>
-    <div class="col-md-2">
+    <!-- <div class="col-md-2">
       <h4><%= link_to "Create an Idea",
             new_knowandcul_path %></span></h4>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -216,7 +216,7 @@
     <col class="col-md-1">
     <col class="col-md-2">
     <col class="col-md-1">
-    <col class="col-md-1">    
+    <!-- <col class="col-md-1">     -->
   </colgroup>
   <thead>
     <tr>
@@ -228,7 +228,7 @@
       <th><%= model_class.human_attribute_name("Reviewed by") %></th>
       <th><%= model_class.human_attribute_name(:Status_id) %></th>
       <th><%= model_class.human_attribute_name(:Comments) %></th>
-      <th><%= model_class.human_attribute_name("Action Item") %></th>
+      <!-- <th><%= model_class.human_attribute_name("Action Item") %></th> -->
       <!-- <th><%= model_class.human_attribute_name("Imperative Owner") %></th> -->
       <!-- <th><%= model_class.human_attribute_name(:created_at) %></th> -->
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -250,14 +250,14 @@
         <td><%= knowandcul.Action %></td>
         <!-- <td><%= knowandcul.GetOwner %></td> --->
         <!-- <td><%=l knowandcul.created_at %></td> -->
-        <td align="center">
+        <!-- <td align="center">
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_knowandcul_path(knowandcul) %><br>
           <%= link_to t('.destroy', :default => t("Delete")),
                       knowandcul_path(knowandcul),
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) } %>
-        </td>        
+        </td> -->        
       </tr>
       <% end %>
     <% end %>
